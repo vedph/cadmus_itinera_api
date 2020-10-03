@@ -1,0 +1,775 @@
+{
+  "facets": [
+    {
+      "id": "default",
+      "label": "default",
+      "description": "The default facet",
+      "colorKey": "86ACEB",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.categories",
+          "name": "categories",
+          "description": "Item's categories.",
+          "required": true,
+          "colorKey": "98F8F8",
+          "groupKey": "general",
+          "sortKey": "categories"
+        },
+        {
+          "typeId": "it.vedph.historical-date",
+          "name": "date",
+          "description": "Historical date.",
+          "required": false,
+          "colorKey": "F898F8",
+          "groupKey": "general",
+          "sortKey": "date"
+        },
+        {
+          "typeId": "it.vedph.keywords",
+          "name": "keywords",
+          "description": "Item's keywords.",
+          "colorKey": "99CCFF",
+          "groupKey": "general",
+          "sortKey": "keywords"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "B0A0F8",
+          "groupKey": "general",
+          "sortKey": "note"
+        },
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "20B2AA",
+          "groupKey": "general",
+          "sortKey": "bibliography"
+        },
+        {
+          "typeId": "it.vedph.token-text",
+          "roleId": "base-text",
+          "name": "text",
+          "description": "Item's token-based text.",
+          "colorKey": "31AB54",
+          "groupKey": "text",
+          "sortKey": "text"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.comment",
+          "name": "comments",
+          "description": "Comments on text.",
+          "colorKey": "F8D040",
+          "groupKey": "text",
+          "sortKey": "text-comments"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.chronology",
+          "name": "chronology",
+          "description": "Chronological indication.",
+          "colorKey": "DDA0DD",
+          "groupKey": "text",
+          "sortKey": "text-chronology"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.apparatus",
+          "name": "apparatus",
+          "description": "Critical apparatus.",
+          "colorKey": "D4E0A4",
+          "groupKey": "text",
+          "sortKey": "text-apparatus"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.quotations",
+          "name": "quotations",
+          "description": "Literary quotations.",
+          "colorKey": "DAA520",
+          "groupKey": "text",
+          "sortKey": "text-quotations"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-binding",
+          "roleId": "",
+          "name": "ms binding",
+          "description": "Manuscript's binding.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-binding"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-catchwords",
+          "roleId": "",
+          "name": "ms catchwords",
+          "description": "Manuscript's catchwords.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-catchwords"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-composition",
+          "roleId": "",
+          "name": "ms composition",
+          "description": "Manuscript's composition.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-composition"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-decorations",
+          "roleId": "",
+          "name": "ms decoration",
+          "description": "Manuscript's decoration.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-decoration"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-dimensions",
+          "roleId": "",
+          "name": "ms dimensions",
+          "description": "Manuscript's dimensions.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-dimensions"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-hands",
+          "roleId": "",
+          "name": "ms hands",
+          "description": "Manuscript's hands.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-hands"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-history",
+          "roleId": "",
+          "name": "ms history",
+          "description": "Manuscript's history.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-history"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-material-dsc",
+          "roleId": "",
+          "name": "ms material",
+          "description": "Manuscript's material description.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-material-dsc"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-numberings",
+          "roleId": "",
+          "name": "ms numberings",
+          "description": "Manuscript's numberings.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-numberings"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-place",
+          "roleId": "",
+          "name": "ms place",
+          "description": "Manuscript's place of origin.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-place"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-poem-ranges",
+          "roleId": "",
+          "name": "ms poem ranges",
+          "description": "Manuscript's poems ranges.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-poem-ranges"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-quires",
+          "roleId": "",
+          "name": "ms quires",
+          "description": "Manuscript's quires.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-quires"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-signatures",
+          "roleId": "",
+          "name": "ms signatures",
+          "description": "Manuscript's signatures.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-signatures"
+        },
+        {
+          "typeId": "it.vedph.itinera.ms-watermarks",
+          "roleId": "",
+          "name": "ms watermarks",
+          "description": "Manuscript's watermarks.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-watermarks"
+        },
+        {
+          "typeId": "it.vedph.itinera.person-hand",
+          "roleId": "",
+          "name": "person hand",
+          "description": "Person's hand.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "person-hand"
+        },
+        {
+          "typeId": "it.vedph.itinera.attachments",
+          "roleId": "",
+          "name": "attachment",
+          "description": "Attachments connected to some document.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-attachments"
+        },
+        {
+          "typeId": "it.vedph.itinera.chronotopics",
+          "roleId": "",
+          "name": "chronotopics",
+          "description": "Chronological and topological coordinates.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-chronotopics"
+        },
+        {
+          "typeId": "it.vedph.itinera.cited-persons",
+          "roleId": "",
+          "name": "cited persons",
+          "description": "List of persons cited in a text.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-cited-persons"
+        },
+        {
+          "typeId": "it.vedph.itinera.corr-dedications",
+          "roleId": "",
+          "name": "dedications",
+          "description": "Dedications between the reference author and correspondent.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-dedications"
+        },
+        {
+          "typeId": "it.vedph.itinera.corr-exchanges",
+          "roleId": "",
+          "name": "exchanges",
+          "description": "Exchanges of objects between the reference author and correspondent.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-exchanges"
+        },
+        {
+          "typeId": "it.vedph.itinera.corr-pseudonyms",
+          "roleId": "",
+          "name": "pseudonyms",
+          "description": "Pseudonyms assigned by the reference author to the correspondent, or vice-versa.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-pseudonyms"
+        },
+        {
+          "typeId": "it.vedph.itinera.doc-references",
+          "roleId": "auth",
+          "name": "a-refs",
+          "description": "Document references by the reference author to the correspondent.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-doc-refs-a"
+        },
+        {
+          "typeId": "it.vedph.itinera.doc-references",
+          "roleId": "corr",
+          "name": "c-refs",
+          "description": "Document references by the correspondent to the reference author.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-doc-refs-c"
+        },
+        {
+          "typeId": "it.vedph.itinera.letter-info",
+          "roleId": "",
+          "name": "letter info",
+          "description": "Essential information about a letter.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-letter-info"
+        },
+        {
+          "typeId": "it.vedph.itinera.person-events",
+          "roleId": "cbio",
+          "name": "c-bio events",
+          "description": "Biographic events connected to a correspondent.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-person-events-b"
+        },
+        {
+          "typeId": "it.vedph.itinera.person-events",
+          "roleId": "cmet",
+          "name": "person events",
+          "description": "Meetings between a correspondent and the reference author.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-person-events-m"
+        },
+        {
+          "typeId": "it.vedph.itinera.poetic-text-info",
+          "roleId": "",
+          "name": "poetic text info",
+          "description": "Information about a letter-related poetic text.",
+          "colorKey": "DAA520",
+          "groupKey": "letter",
+          "sortKey": "ep-poetic-text-info"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "id": 1,
+      "label": "to revise",
+      "description": "The item must be revised.",
+      "colorKey": "F08080"
+    }
+  ],
+  "index": {
+    "writer": {
+      "id": "item-index-writer.mysql"
+    },
+    "reader": {
+      "id": "item-index-reader.mysql"
+    }
+  },
+  "thesauri": [
+    {
+      "id": "model-types@en",
+      "entries": [
+        {
+          "id": "it.vedph.categories",
+          "value": "categories"
+        },
+        {
+          "id": "it.vedph.historical-date",
+          "value": "date"
+        },
+        {
+          "id": "it.vedph.keywords",
+          "value": "keywords"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "note"
+        },
+        {
+          "id": "it.vedph.bibliography",
+          "value": "bibliography"
+        },
+        {
+          "id": "it.vedph.token-text",
+          "value": "text"
+        },
+        {
+          "id": "it.vedph.token-text-layer",
+          "value": "text layer"
+        },
+        {
+          "id": "fr.it.vedph.apparatus",
+          "value": "apparatus fr."
+        },
+        {
+          "id": "fr.it.vedph.chronology",
+          "value": "chronology fr."
+        },
+        {
+          "id": "fr.it.vedph.comment",
+          "value": "comment fr."
+        },
+        {
+          "id": "fr.it.vedph.quotations",
+          "value": "quotations fr."
+        }
+      ]
+    },
+    {
+      "id": "categories@en",
+      "entries": [
+        {
+          "id": "architecture",
+          "value": "architecture"
+        },
+        {
+          "id": "geography",
+          "value": "geography"
+        },
+        {
+          "id": "geography.cities",
+          "value": "geography: cities"
+        },
+        {
+          "id": "geography.regions",
+          "value": "geography: regions"
+        },
+        {
+          "id": "ethnography",
+          "value": "ethnography"
+        },
+        {
+          "id": "ethnography.death",
+          "value": "ethnography: death"
+        },
+        {
+          "id": "ethnography.food",
+          "value": "ethnography: food"
+        },
+        {
+          "id": "ethnography.peoples",
+          "value": "ethnography: peoples"
+        },
+        {
+          "id": "ethnography.religion",
+          "value": "ethnography: religion"
+        },
+        {
+          "id": "ethnography.religion.deities",
+          "value": "ethnography: religion deities"
+        },
+        {
+          "id": "ethnography.religion.rites",
+          "value": "ethnography: religion rites"
+        },
+        {
+          "id": "history",
+          "value": "history"
+        },
+        {
+          "id": "language",
+          "value": "language"
+        },
+        {
+          "id": "language.phonology",
+          "value": "language: phonology"
+        },
+        {
+          "id": "language.morphology",
+          "value": "language: morphology"
+        },
+        {
+          "id": "language.syntax",
+          "value": "language: syntax"
+        },
+        {
+          "id": "literature",
+          "value": "literature"
+        }
+      ]
+    },
+    {
+      "id": "languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        },
+        {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "gre",
+          "value": "Modern Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
+        }
+      ]
+    },
+    {
+      "id": "bibliography-types@en",
+      "entries": [
+        {
+          "id": "book",
+          "value": "book"
+        },
+        {
+          "id": "article-j",
+          "value": "journal article"
+        },
+        {
+          "id": "article-b",
+          "value": "book article"
+        },
+        {
+          "id": "article-p",
+          "value": "proceedings article"
+        },
+        {
+          "id": "review",
+          "value": "review"
+        },
+        {
+          "id": "ebook",
+          "value": "e-book"
+        },
+        {
+          "id": "site",
+          "value": "web site"
+        },
+        {
+          "id": "magazine",
+          "value": "magazine"
+        },
+        {
+          "id": "newspaper",
+          "value": "newspaper"
+        },
+        {
+          "id": "tweet",
+          "value": "tweet"
+        }
+      ]
+    },
+    {
+      "id": "bibliography-author-roles@en",
+      "entries": [
+        {
+          "id": "ed",
+          "value": "editor"
+        },
+        {
+          "id": "tr",
+          "value": "translator"
+        },
+        {
+          "id": "org",
+          "value": "organization"
+        }
+      ]
+    },
+    {
+      "id": "chronology-tags@en",
+      "entries": [
+        {
+          "id": "bat",
+          "value": "battle"
+        },
+        {
+          "id": "prst",
+          "value": "priesthood"
+        },
+        {
+          "id": "cos",
+          "value": "consulship"
+        }
+      ]
+    },
+    {
+      "id": "apparatus-tags@en",
+      "entries": [
+        {
+          "id": "margin",
+          "value": "margin"
+        },
+        {
+          "id": "inter",
+          "value": "interlinear"
+        }
+      ]
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "users": ["zeus"],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.categories",
+        "options": {
+          "maxCategoriesPerItem": 3,
+          "categories": [
+            "language.phonology",
+            "language.morphology",
+            "language.syntax",
+            "literature",
+            "geography"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.historical-date"
+      },
+      {
+        "id": "seed.it.vedph.keywords",
+        "options": {
+          "languages": ["eng", "deu", "ita", "fra", "spa"]
+        }
+      },
+      {
+        "id": "seed.it.vedph.bibliography",
+        "options": {
+          "authors": [
+            "Doe,Jane",
+            "Doherty,Charles",
+            "Orwell,William",
+            "Sampson,James",
+            "Voss,Francis"
+          ],
+          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
+        }
+      },
+      {
+        "id": "seed.it.vedph.note",
+        "options": {
+          "tags": ["language", "history", "geography"]
+        }
+      },
+      {
+        "id": "seed.it.vedph.token-text"
+      },
+      {
+        "id": "seed.it.vedph.token-text-layer",
+        "options": {
+          "maxFragmentCount": 3
+        }
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-binding"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-catchwords"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-composition"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-decorations"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-dimensions"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-hands"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-history"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-material-dsc"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-numberings"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-place"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-poem-ranges"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-quires"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-signatures"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-watermarks"
+      },
+      {
+        "id": "seed.it.vedph.itinera.person-hand"
+      },
+      {
+        "id": "seed.it.vedph.itinera.attachments"
+      },
+      {
+        "id": "seed.it.vedph.itinera.chronotopics"
+      },
+      {
+        "id": "seed.it.vedph.itinera.cited-persons"
+      },
+      {
+        "id": "seed.it.vedph.itinera.corr-dedications"
+      },
+      {
+        "id": "seed.it.vedph.itinera.corr-exchanges"
+      },
+      {
+        "id": "seed.it.vedph.itinera.corr-pseudonyms"
+      },
+      {
+        "id": "seed.it.vedph.itinera.doc-references"
+      },
+      {
+        "id": "seed.it.vedph.itinera.letter-info"
+      },
+      {
+        "id": "seed.it.vedph.itinera.person-events"
+      },
+      {
+        "id": "seed.it.vedph.itinera.poetic-text-info"
+      }
+    ],
+    "fragmentSeeders": [
+      {
+        "id": "seed.fr.it.vedph.comment",
+        "options": {
+          "tags": ["language", "history", "geography"]
+        }
+      },
+      {
+        "id": "seed.fr.it.vedph.chronology",
+        "options": {
+          "tags": ["bat", "prst", "cos"]
+        }
+      },
+      {
+        "id": "seed.fr.it.vedph.apparatus"
+      },
+      {
+        "id": "seed.fr.it.vedph.orthography",
+        "options": {
+          "tags": ["ph.c.occl.", "ph.c.liq.", "ph.c.nas."]
+        }
+      },
+      {
+        "id": "seed.fr.it.vedph.quotations",
+        "options": {
+          "authors": ["Fest.", "Diac.", "Isid."]
+        }
+      }
+    ]
+  }
+}

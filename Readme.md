@@ -43,3 +43,5 @@ This is a Cadmus API layer customized for the Itinera project. Most of its code 
 - in `docker-compose.yml`, change the `cadmus-api` image name, and its port (to reflect this project's port).
 
 7. in the project's properties, ensure that the port is not conflicting with other port numbers in your environment (you can also see <https://stackoverflow.com/questions/37365277/how-to-specify-the-port-an-asp-net-core-application-is-hosted-on>).
+
+8. copy `wwwroot` from CadmusApi, and customize its contents (the Cadmus profile, and if needed the messages template text).

@@ -3,6 +3,7 @@ using System.Reflection;
 using Cadmus.Core;
 using Cadmus.Core.Config;
 using Cadmus.Core.Storage;
+using Cadmus.Itinera.Parts.Codicology;
 using Cadmus.Mongo;
 using Cadmus.Parts.General;
 using Cadmus.Philology.Parts.Layers;
@@ -35,10 +36,10 @@ namespace CadmusItineraApi.Services
             {
                 // Cadmus.Parts
                 typeof(NotePart).GetTypeInfo().Assembly,
-                // Cadmus.Lexicon.Parts
-                // typeof(WordFormPart).GetTypeInfo().Assembly,
                 // Cadmus.Philology.Parts
-                typeof(ApparatusLayerFragment).GetTypeInfo().Assembly
+                typeof(ApparatusLayerFragment).GetTypeInfo().Assembly,
+                // Cadmus.Itinera.Parts
+                typeof(MsBindingPart).GetTypeInfo().Assembly
             });
 
             _partTypeProvider = new StandardPartTypeProvider(_map);
