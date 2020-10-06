@@ -142,7 +142,7 @@ namespace CadmusItineraApi
                 {
                     Version = "v1",
                     Title = "API",
-                    Description = "Cadmus Services"
+                    Description = "Cadmus Itinera Services"
                 });
                 c.DescribeAllParametersInCamelCase();
 
