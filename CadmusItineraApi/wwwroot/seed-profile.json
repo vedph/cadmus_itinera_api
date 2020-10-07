@@ -659,6 +659,27 @@
           "value": "organization"
         }
       ]
+    },
+    {
+      "id": "person-name-types@en",
+      "entries": [
+        {
+          "id": "first",
+          "value": "first"
+        },
+        {
+          "id": "last",
+          "value": "last"
+        },
+        {
+          "id": "name",
+          "value": "name"
+        },
+        {
+          "id": "title",
+          "value": "title"
+        }
+      ]
     }
   ],
   "seed": {
