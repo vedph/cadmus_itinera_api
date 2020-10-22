@@ -284,6 +284,15 @@
           "sortKey": "ms-composition"
         },
         {
+          "typeId": "it.vedph.itinera.ms-content-loci",
+          "roleId": "",
+          "name": "ms loci",
+          "description": "Manuscript's loci critici.",
+          "colorKey": "DAA520",
+          "groupKey": "manuscript",
+          "sortKey": "ms-loci"
+        },
+        {
           "typeId": "it.vedph.itinera.ms-contents",
           "roleId": "",
           "name": "ms contents",
@@ -519,6 +528,10 @@
         {
           "id": "it.vedph.itinera.ms-composition",
           "value": "ms composition"
+        },
+        {
+          "id": "it.vedph.itinera.ms-content-loci",
+          "value": "ms loci"
         },
         {
           "id": "it.vedph.itinera.ms-contents",
@@ -759,6 +772,9 @@
       },
       {
         "id": "seed.it.vedph.itinera.ms-composition"
+      },
+      {
+        "id": "seed.it.vedph.itinera.ms-content-loci"
       },
       {
         "id": "seed.it.vedph.itinera.ms-contents"
