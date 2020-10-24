@@ -732,6 +732,27 @@
           "value": "mm"
         }
       ]
+    },
+    {
+      "id": "ms-decoration-colors@en",
+      "entries": [
+        {
+          "id": "red",
+          "value": "red"
+        },
+        {
+          "id": "green",
+          "value": "green"
+        },
+        {
+          "id": "blue",
+          "value": "blue"
+        },
+        {
+          "id": "gold",
+          "value": "gold"
+        }
+      ]
     }
   ],
   "seed": {
