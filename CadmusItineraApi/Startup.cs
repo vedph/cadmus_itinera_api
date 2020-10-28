@@ -29,6 +29,7 @@ using Cadmus.Api.Services.Auth;
 using Cadmus.Api.Services.Messaging;
 using Cadmus.Api.Services;
 using CadmusItineraApi.Services;
+using System.Linq;
 
 namespace CadmusItineraApi
 {
@@ -74,15 +75,23 @@ namespace CadmusItineraApi
 
         private void ConfigureCorsServices(IServiceCollection services)
         {
+            string[] origins = new[] { "http://localhost:4200" };
+
+            IConfigurationSection section = Configuration.GetSection("AllowedOrigins");
+            if (section.Exists())
+            {
+                origins = section.AsEnumerable()
+                    .Where(p => !string.IsNullOrEmpty(p.Value))
+                    .Select(p => p.Value).ToArray();
+            }
+
             services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
             {
                 builder.AllowAnyMethod()
                     .AllowAnyHeader()
                     // https://github.com/aspnet/SignalR/issues/2110 for AllowCredentials
                     .AllowCredentials()
-                    .WithOrigins("http://localhost:4200",
-                                 "http://www.fusisoft.it/",
-                                 "https://www.fusisoft.it/");
+                    .WithOrigins(origins);
             }));
         }
 
