@@ -486,6 +486,10 @@
           "value": "attachments"
         },
         {
+          "id": "it.vedph.itinera.chronotopics",
+          "value": "chronotopics"
+        },
+        {
           "id": "it.vedph.itinera.cited-persons",
           "value": "cited persons"
         },
