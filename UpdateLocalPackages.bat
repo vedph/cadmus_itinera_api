@@ -14,18 +14,18 @@ xcopy %src%fusi.microsoft.extensions.configuration.inmemoryjson\1.0.2\*.nupkg .\
 
 xcopy %src%messagingapi\1.0.1\*.nupkg .\local-packages\ /y
 
-xcopy %src%cadmus.api.models\1.0.1\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.api.services\1.0.5\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.api.controllers\1.0.1\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.api.models\1.0.2\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.api.services\1.0.6\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.api.controllers\1.0.2\*.nupkg .\local-packages\ /y
 
 xcopy %src%cadmus.itinera.services\1.0.6\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.itinera.parts\1.0.3\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.seed.itinera.parts\1.0.6\*.nupkg .\local-packages\ /y
 
 xcopy %src%cadmus.core\2.3.0\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.index\1.1.0\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.index.sql\1.1.1\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.mongo\2.3.2\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.index\1.1.1\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.index.sql\1.1.2\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.mongo\2.3.3\*.nupkg .\local-packages\ /y
 
 xcopy %src%cadmus.parts\2.3.0\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.philology.parts\2.3.0\*.nupkg .\local-packages\ /y
