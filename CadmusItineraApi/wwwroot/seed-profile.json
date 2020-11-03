@@ -27,7 +27,7 @@
           "roleId": "",
           "name": "attachment",
           "description": "Attachments connected to some document.",
-          "colorKey": "DAA520",
+          "colorKey": "EEE862",
           "groupKey": "letter",
           "sortKey": "ep-attachments"
         },
@@ -36,7 +36,7 @@
           "roleId": "",
           "name": "chronotopics",
           "description": "Chronological and topological coordinates.",
-          "colorKey": "DAA520",
+          "colorKey": "F48483",
           "groupKey": "letter",
           "sortKey": "ep-chronotopics"
         },
@@ -45,7 +45,7 @@
           "roleId": "",
           "name": "cited persons",
           "description": "List of persons cited in a text.",
-          "colorKey": "DAA520",
+          "colorKey": "F5C44E",
           "groupKey": "letter",
           "sortKey": "ep-cited-persons"
         },
@@ -54,7 +54,7 @@
           "roleId": "",
           "name": "references",
           "description": "Document references related to a letter.",
-          "colorKey": "DAA520",
+          "colorKey": "FAC9D5",
           "groupKey": "letter",
           "sortKey": "ep-doc-refs"
         },
@@ -63,7 +63,7 @@
           "roleId": "",
           "name": "letter info",
           "description": "Essential information about a letter.",
-          "colorKey": "DAA520",
+          "colorKey": "76CB9C",
           "groupKey": "letter",
           "sortKey": "ep-letter-info"
         }
@@ -96,7 +96,7 @@
           "roleId": "",
           "name": "dedications",
           "description": "Dedications between the reference author and correspondent.",
-          "colorKey": "DAA520",
+          "colorKey": "A5CB76",
           "groupKey": "correspondent",
           "sortKey": "ep-dedications"
         },
@@ -105,7 +105,7 @@
           "roleId": "",
           "name": "exchanges",
           "description": "Exchanges of objects between the reference author and correspondent.",
-          "colorKey": "DAA520",
+          "colorKey": "76CBC6",
           "groupKey": "correspondent",
           "sortKey": "ep-exchanges"
         },
@@ -114,7 +114,7 @@
           "roleId": "",
           "name": "pseudonyms",
           "description": "Pseudonyms assigned by the reference author to the correspondent, or vice-versa.",
-          "colorKey": "DAA520",
+          "colorKey": "CB9C76",
           "groupKey": "correspondent",
           "sortKey": "ep-pseudonyms"
         },
@@ -123,7 +123,7 @@
           "roleId": "auth",
           "name": "a-refs",
           "description": "Document references by the reference author to the correspondent.",
-          "colorKey": "DAA520",
+          "colorKey": "FAC9D5",
           "groupKey": "correspondent",
           "sortKey": "ep-doc-refs-a"
         },
@@ -132,7 +132,7 @@
           "roleId": "corr",
           "name": "c-refs",
           "description": "Document references by the correspondent to the reference author.",
-          "colorKey": "DAA520",
+          "colorKey": "FAC9D5",
           "groupKey": "correspondent",
           "sortKey": "ep-doc-refs-c"
         },
@@ -141,7 +141,7 @@
           "roleId": "ebio",
           "name": "c-bio events",
           "description": "Biographic events connected to a correspondent.",
-          "colorKey": "DAA520",
+          "colorKey": "988BD2",
           "groupKey": "correspondent",
           "sortKey": "ep-person-events-b"
         },
@@ -150,7 +150,7 @@
           "roleId": "emet",
           "name": "person events",
           "description": "Meetings between a correspondent and the reference author.",
-          "colorKey": "DAA520",
+          "colorKey": "988BD2",
           "groupKey": "correspondent",
           "sortKey": "ep-person-events-m"
         },
@@ -159,7 +159,7 @@
           "roleId": "",
           "name": "person",
           "description": "Person's bio.",
-          "colorKey": "DAA520",
+          "colorKey": "62AEEE",
           "groupKey": "correspondent",
           "sortKey": "ep-person"
         }
@@ -192,7 +192,7 @@
           "roleId": "",
           "name": "attachment",
           "description": "Attachments connected to some document.",
-          "colorKey": "DAA520",
+          "colorKey": "EEE862",
           "groupKey": "poetic",
           "sortKey": "ep-attachments"
         },
@@ -201,7 +201,7 @@
           "roleId": "",
           "name": "chronotopics",
           "description": "Chronological and topological coordinates.",
-          "colorKey": "DAA520",
+          "colorKey": "F48483",
           "groupKey": "poetic",
           "sortKey": "ep-chronotopics"
         },
@@ -210,7 +210,7 @@
           "roleId": "",
           "name": "cited persons",
           "description": "List of persons cited in a text.",
-          "colorKey": "DAA520",
+          "colorKey": "F5C44E",
           "groupKey": "poetic",
           "sortKey": "ep-cited-persons"
         },
@@ -219,7 +219,7 @@
           "roleId": "",
           "name": "poetic text info",
           "description": "Information about a letter-related poetic text.",
-          "colorKey": "DAA520",
+          "colorKey": "D28BA2",
           "groupKey": "poetic",
           "sortKey": "ep-poetic-text-info"
         }
