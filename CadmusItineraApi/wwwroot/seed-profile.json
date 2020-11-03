@@ -1025,7 +1025,7 @@
       ]
     },
     {
-      "id": "ms-guide-positions",
+      "id": "ms-guide-positions@en",
       "entries": [
         {
           "id": "below",
@@ -1050,7 +1050,7 @@
       ]
     },
     {
-      "id": "ms-binding-materials",
+      "id": "ms-binding-materials@en",
       "entries": [
         {
           "id": "leather",
@@ -1075,7 +1075,7 @@
       ]
     },
     {
-      "id": "ms-binding-support-materials",
+      "id": "ms-binding-support-materials@en",
       "entries": [
         {
           "id": "wood",
@@ -1092,7 +1092,7 @@
       ]
     },
     {
-      "id": "ms-content-states",
+      "id": "ms-content-states@en",
       "entries": [
         {
           "id": "headless",
@@ -1121,7 +1121,7 @@
       ]
     },
     {
-      "id": "ms-history-person-roles",
+      "id": "ms-history-person-roles@en",
       "entries": [
         {
           "id": "owner",
@@ -1134,7 +1134,7 @@
       ]
     },
     {
-      "id": "ms-history-languages",
+      "id": "ms-history-languages@en",
       "entries": [
         {
           "id": "ita",
@@ -1155,7 +1155,7 @@
       ]
     },
     {
-      "id": "ms-annotation-types",
+      "id": "ms-annotation-types@en",
       "entries": [
         {
           "id": "comment",
