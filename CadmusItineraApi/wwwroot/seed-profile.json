@@ -261,7 +261,7 @@
           "roleId": "",
           "name": "ms binding",
           "description": "Manuscript's binding.",
-          "colorKey": "DAA520",
+          "colorKey": "AF6465",
           "groupKey": "manuscript",
           "sortKey": "ms-binding"
         },
@@ -270,7 +270,7 @@
           "roleId": "",
           "name": "ms catchwords",
           "description": "Manuscript's catchwords.",
-          "colorKey": "DAA520",
+          "colorKey": "FE3A34",
           "groupKey": "manuscript",
           "sortKey": "ms-catchwords"
         },
@@ -288,7 +288,7 @@
           "roleId": "",
           "name": "ms loci",
           "description": "Manuscript's loci critici.",
-          "colorKey": "DAA520",
+          "colorKey": "C880C4",
           "groupKey": "manuscript",
           "sortKey": "ms-loci"
         },
@@ -297,7 +297,7 @@
           "roleId": "",
           "name": "ms contents",
           "description": "Manuscript's contents.",
-          "colorKey": "DAA520",
+          "colorKey": "508B5E",
           "groupKey": "manuscript",
           "sortKey": "ms-contents"
         },
@@ -306,7 +306,7 @@
           "roleId": "",
           "name": "ms decoration",
           "description": "Manuscript's decoration.",
-          "colorKey": "DAA520",
+          "colorKey": "4D5EF7",
           "groupKey": "manuscript",
           "sortKey": "ms-decoration"
         },
@@ -315,7 +315,7 @@
           "roleId": "",
           "name": "ms dimensions",
           "description": "Manuscript's dimensions.",
-          "colorKey": "DAA520",
+          "colorKey": "72EAF7",
           "groupKey": "manuscript",
           "sortKey": "ms-dimensions"
         },
@@ -324,7 +324,7 @@
           "roleId": "",
           "name": "ms hands",
           "description": "Manuscript's hands.",
-          "colorKey": "DAA520",
+          "colorKey": "F5C2B1",
           "groupKey": "manuscript",
           "sortKey": "ms-hands"
         },
@@ -333,7 +333,7 @@
           "roleId": "",
           "name": "ms history",
           "description": "Manuscript's history.",
-          "colorKey": "DAA520",
+          "colorKey": "C82222",
           "groupKey": "manuscript",
           "sortKey": "ms-history"
         },
@@ -342,7 +342,7 @@
           "roleId": "",
           "name": "ms material",
           "description": "Manuscript's material description.",
-          "colorKey": "DAA520",
+          "colorKey": "989796",
           "groupKey": "manuscript",
           "sortKey": "ms-material-dsc"
         },
@@ -351,7 +351,7 @@
           "roleId": "",
           "name": "ms numberings",
           "description": "Manuscript's numberings.",
-          "colorKey": "DAA520",
+          "colorKey": "8047DD",
           "groupKey": "manuscript",
           "sortKey": "ms-numberings"
         },
@@ -360,7 +360,7 @@
           "roleId": "",
           "name": "ms place",
           "description": "Manuscript's place of origin.",
-          "colorKey": "DAA520",
+          "colorKey": "41943B",
           "groupKey": "manuscript",
           "sortKey": "ms-place"
         },
@@ -369,7 +369,7 @@
           "roleId": "",
           "name": "ms poem ranges",
           "description": "Manuscript's poems ranges.",
-          "colorKey": "DAA520",
+          "colorKey": "E72A8E",
           "groupKey": "manuscript",
           "sortKey": "ms-poem-ranges"
         },
@@ -378,7 +378,7 @@
           "roleId": "",
           "name": "ms quires",
           "description": "Manuscript's quires.",
-          "colorKey": "DAA520",
+          "colorKey": "D4F672",
           "groupKey": "manuscript",
           "sortKey": "ms-quires"
         },
@@ -387,7 +387,7 @@
           "roleId": "",
           "name": "ms signatures",
           "description": "Manuscript's signatures.",
-          "colorKey": "DAA520",
+          "colorKey": "D7D5DB",
           "groupKey": "manuscript",
           "sortKey": "ms-signatures"
         },
@@ -396,7 +396,7 @@
           "roleId": "",
           "name": "ms watermarks",
           "description": "Manuscript's watermarks.",
-          "colorKey": "DAA520",
+          "colorKey": "82DCCA",
           "groupKey": "manuscript",
           "sortKey": "ms-watermarks"
         }
@@ -429,7 +429,7 @@
           "roleId": "",
           "name": "person hand",
           "description": "Person's hand.",
-          "colorKey": "DAA520",
+          "colorKey": "9D7EDD",
           "groupKey": "hand",
           "sortKey": "hand"
         },
@@ -438,7 +438,7 @@
           "roleId": "",
           "name": "person",
           "description": "Person's bio.",
-          "colorKey": "DAA520",
+          "colorKey": "62AEEE",
           "groupKey": "hand",
           "sortKey": "person"
         }
@@ -738,23 +738,469 @@
       ]
     },
     {
+      "id": "ms-place-areas@en",
+      "entries": [
+        {
+          "id": "italy",
+          "value": "Italia"
+        },
+        {
+          "id": "france",
+          "value": "Francia"
+        },
+        {
+          "id": "germany",
+          "value": "Germania"
+        },
+        {
+          "id": "england",
+          "value": "Inghilterra"
+        },
+        {
+          "id": "spain",
+          "value": "Spagna"
+        },
+        {
+          "id": "portugal",
+          "value": "Portogallo"
+        },
+        {
+          "id": "bohemia",
+          "value": "Boemia"
+        },
+        {
+          "id": "hungary",
+          "value": "Ungheria"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "ms-materials@en",
+      "entries": [
+        {
+          "id": "parchment",
+          "value": "membr."
+        },
+        {
+          "id": "paper",
+          "value": "cart."
+        },
+        {
+          "id": "mix",
+          "value": "misto"
+        }
+      ]
+    },
+    {
+      "id": "ms-formats@en",
+      "entries": [
+        {
+          "id": "infolio",
+          "value": "in-folio"
+        },
+        {
+          "id": "in4",
+          "value": "in-4°"
+        },
+        {
+          "id": "in8",
+          "value": "in-8°"
+        },
+        {
+          "id": "in16",
+          "value": "in-16°"
+        }
+      ]
+    },
+    {
+      "id": "ms-states@en",
+      "entries": [
+        {
+          "id": "s1",
+          "value": "ottimo"
+        },
+        {
+          "id": "s2",
+          "value": "buono"
+        },
+        {
+          "id": "s3",
+          "value": "discreto"
+        },
+        {
+          "id": "s4",
+          "value": "precario"
+        },
+        {
+          "id": "s5",
+          "value": "pessimo"
+        }
+      ]
+    },
+    {
+      "id": "ms-numbering-eras@en",
+      "entries": [
+        {
+          "id": "c21",
+          "value": "coeva"
+        },
+        {
+          "id": "c14",
+          "value": "sec.XV (cod.XIV)"
+        },
+        {
+          "id": "c15",
+          "value": "antica"
+        },
+        {
+          "id": "c16",
+          "value": "moderna"
+        },
+        {
+          "id": "c19",
+          "value": "recente"
+        }
+      ]
+    },
+    {
+      "id": "ms-numbering-systems@en",
+      "entries": [
+        {
+          "id": "arabic",
+          "value": "arabo"
+        },
+        {
+          "id": "roman",
+          "value": "romano"
+        },
+        {
+          "id": "roman-arabic",
+          "value": "romano+arabo"
+        },
+        {
+          "id": "mix",
+          "value": "misto"
+        }
+      ]
+    },
+    {
+      "id": "ms-numbering-techniques@en",
+      "entries": [
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        },
+        {
+          "id": "lapis",
+          "value": "lapis"
+        },
+        {
+          "id": "mechanic",
+          "value": "n. meccanico"
+        }
+      ]
+    },
+    {
+      "id": "ms-numbering-positions@en",
+      "entries": [
+        {
+          "id": "mse",
+          "value": "marg.sup.est."
+        },
+        {
+          "id": "msc",
+          "value": "marg.sup.cen."
+        },
+        {
+          "id": "msi",
+          "value": "marg.sup.int."
+        },
+        {
+          "id": "mie",
+          "value": "marg.inf.est."
+        },
+        {
+          "id": "mic",
+          "value": "marg.inf.cen."
+        },
+        {
+          "id": "mii",
+          "value": "marg.inf.int."
+        },
+        {
+          "id": "is",
+          "value": "intercol.sup."
+        },
+        {
+          "id": "ii",
+          "value": "intercol.inf."
+        }
+      ]
+    },
+    {
+      "id": "ms-catchword-positions@en",
+      "entries": [
+        {
+          "id": "mis",
+          "value": "marg.inf.sx"
+        },
+        {
+          "id": "mic",
+          "value": "marg.inf.cen."
+        },
+        {
+          "id": "mid",
+          "value": "marg.inf.dx"
+        }
+      ]
+    },
+    {
+      "id": "ms-rubrication-types@en",
+      "entries": [
+        {
+          "id": "copyst",
+          "value": "copista"
+        },
+        {
+          "id": "other",
+          "value": "altra mano"
+        }
+      ]
+    },
+    {
+      "id": "ms-decoration-types@en",
+      "entries": [
+        {
+          "id": "incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "page",
+          "value": "pagine decorate"
+        },
+        {
+          "id": "picture",
+          "value": "illustrazioni"
+        },
+        {
+          "id": "decoration",
+          "value": "ornamentazione"
+        },
+        {
+          "id": "head",
+          "value": "iniziali"
+        },
+        {
+          "id": "running",
+          "value": "titoli correnti"
+        },
+        {
+          "id": "drawing",
+          "value": "disegni"
+        },
+        {
+          "id": "frame",
+          "value": "spazi ill./iniziali n.e."
+        }
+      ]
+    },
+    {
       "id": "ms-decoration-colors@en",
       "entries": [
         {
+          "id": "blue",
+          "value": "blu"
+        },
+        {
           "id": "red",
-          "value": "red"
+          "value": "rosso"
+        },
+        {
+          "id": "purple",
+          "value": "porpora"
         },
         {
           "id": "green",
-          "value": "green"
+          "value": "verde"
         },
         {
-          "id": "blue",
-          "value": "blue"
+          "id": "ochre",
+          "value": "ocra"
         },
         {
           "id": "gold",
-          "value": "gold"
+          "value": "oro"
+        }
+      ]
+    },
+    {
+      "id": "ms-guide-positions",
+      "entries": [
+        {
+          "id": "below",
+          "value": "sotto iniziale"
+        },
+        {
+          "id": "above",
+          "value": "sopra iniziale"
+        },
+        {
+          "id": "left",
+          "value": "sx iniziale"
+        },
+        {
+          "id": "right",
+          "value": "dx iniziale"
+        },
+        {
+          "id": "behind",
+          "value": "coperta da iniz."
+        }
+      ]
+    },
+    {
+      "id": "ms-binding-materials",
+      "entries": [
+        {
+          "id": "leather",
+          "value": "pelle"
+        },
+        {
+          "id": "hide",
+          "value": "cuoio"
+        },
+        {
+          "id": "membrane",
+          "value": "membrana"
+        },
+        {
+          "id": "velvet",
+          "value": "velluto"
+        },
+        {
+          "id": "cardboard",
+          "value": "cartone"
+        }
+      ]
+    },
+    {
+      "id": "ms-binding-support-materials",
+      "entries": [
+        {
+          "id": "wood",
+          "value": "assi in legno"
+        },
+        {
+          "id": "cardboard",
+          "value": "cartonato"
+        },
+        {
+          "id": "none",
+          "value": "nessuno"
+        }
+      ]
+    },
+    {
+      "id": "ms-content-states",
+      "entries": [
+        {
+          "id": "headless",
+          "value": "acefalo"
+        },
+        {
+          "id": "crippled",
+          "value": "mutilo"
+        },
+        {
+          "id": "gaps",
+          "value": "lacunoso"
+        },
+        {
+          "id": "interrupted",
+          "value": "interrotto"
+        },
+        {
+          "id": "incomplete",
+          "value": "incompleto"
+        },
+        {
+          "id": "excerpts",
+          "value": "estratti"
+        }
+      ]
+    },
+    {
+      "id": "ms-history-person-roles",
+      "entries": [
+        {
+          "id": "owner",
+          "value": "possessore"
+        },
+        {
+          "id": "annotator",
+          "value": "postillatore"
+        }
+      ]
+    },
+    {
+      "id": "ms-history-languages",
+      "entries": [
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "-",
+          "value": "other"
+        }
+      ]
+    },
+    {
+      "id": "ms-annotation-types",
+      "entries": [
+        {
+          "id": "comment",
+          "value": "commento"
+        },
+        {
+          "id": "note",
+          "value": "nota"
+        },
+        {
+          "id": "header",
+          "value": "titolo corr."
+        },
+        {
+          "id": "index",
+          "value": "indice"
+        },
+        {
+          "id": "correction",
+          "value": "correzione"
+        },
+        {
+          "id": "integration",
+          "value": "integrazione"
+        },
+        {
+          "id": "study",
+          "value": "annotaz.studio"
+        },
+        {
+          "id": "read",
+          "value": "annotaz.consultaz."
         }
       ]
     }
