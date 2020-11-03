@@ -712,19 +712,6 @@
       ]
     },
     {
-      "id": "ms-materials@en",
-      "entries": [
-        {
-          "id": "parchment",
-          "value": "parchment"
-        },
-        {
-          "id": "paper",
-          "value": "paper"
-        }
-      ]
-    },
-    {
       "id": "physical-size-units@en",
       "entries": [
         {
