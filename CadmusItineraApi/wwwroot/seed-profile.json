@@ -65,7 +65,8 @@
           "description": "Essential information about a letter.",
           "colorKey": "76CB9C",
           "groupKey": "letter",
-          "sortKey": "ep-letter-info"
+          "sortKey": "ep-letter-info",
+          "required": true
         }
       ]
     },
@@ -161,7 +162,8 @@
           "description": "Person's bio.",
           "colorKey": "62AEEE",
           "groupKey": "correspondent",
-          "sortKey": "ep-person"
+          "sortKey": "ep-person",
+          "required": true
         }
       ]
     },
@@ -221,7 +223,8 @@
           "description": "Information about a letter-related poetic text.",
           "colorKey": "D28BA2",
           "groupKey": "poetic",
-          "sortKey": "ep-poetic-text-info"
+          "sortKey": "ep-poetic-text-info",
+          "required": true
         }
       ]
     },
@@ -251,7 +254,6 @@
           "typeId": "it.vedph.historical-date",
           "name": "date",
           "description": "Historical date.",
-          "required": false,
           "colorKey": "F898F8",
           "groupKey": "general",
           "sortKey": "date"
@@ -389,7 +391,8 @@
           "description": "Manuscript's signatures.",
           "colorKey": "D7D5DB",
           "groupKey": "manuscript",
-          "sortKey": "ms-signatures"
+          "sortKey": "ms-signatures",
+          "required": true
         },
         {
           "typeId": "it.vedph.itinera.ms-watermarks",
@@ -431,7 +434,8 @@
           "description": "Person's hand.",
           "colorKey": "9D7EDD",
           "groupKey": "hand",
-          "sortKey": "hand"
+          "sortKey": "hand",
+          "required": true
         },
         {
           "typeId": "it.vedph.itinera.person",
@@ -691,361 +695,89 @@
       ]
     },
     {
-      "id": "person-name-types@en",
+      "id": "bio-event-types@en",
       "entries": [
         {
-          "id": "first",
-          "value": "first"
+          "id": "birth",
+          "value": "nascita"
         },
         {
-          "id": "last",
-          "value": "last"
+          "id": "work",
+          "value": "opera"
         },
         {
-          "id": "name",
-          "value": "name"
+          "id": "meeting",
+          "value": "incontro"
         },
         {
-          "id": "title",
-          "value": "title"
+          "id": "wedding",
+          "value": "matrimonio"
+        },
+        {
+          "id": "travel",
+          "value": "viaggio"
+        },
+        {
+          "id": "movement",
+          "value": "trasferimento"
+        },
+        {
+          "id": "death",
+          "value": "morte"
         }
       ]
     },
     {
-      "id": "physical-size-units@en",
+      "id": "epist-attachment-types@en",
       "entries": [
         {
-          "id": "cm",
-          "value": "cm"
+          "id": "ms",
+          "value": "manoscritto"
         },
         {
-          "id": "mm",
-          "value": "mm"
+          "id": "letter",
+          "value": "lettera"
+        },
+        {
+          "id": "work",
+          "value": "opera"
         }
       ]
     },
     {
-      "id": "ms-place-areas@en",
+      "id": "ms-annotation-types@en",
       "entries": [
         {
-          "id": "italy",
-          "value": "Italia"
+          "id": "comment",
+          "value": "commento"
         },
         {
-          "id": "france",
-          "value": "Francia"
+          "id": "note",
+          "value": "nota"
         },
         {
-          "id": "germany",
-          "value": "Germania"
+          "id": "header",
+          "value": "titolo corr."
         },
         {
-          "id": "england",
-          "value": "Inghilterra"
+          "id": "index",
+          "value": "indice"
         },
         {
-          "id": "spain",
-          "value": "Spagna"
+          "id": "correction",
+          "value": "correzione"
         },
         {
-          "id": "portugal",
-          "value": "Portogallo"
+          "id": "integration",
+          "value": "integrazione"
         },
         {
-          "id": "bohemia",
-          "value": "Boemia"
+          "id": "study",
+          "value": "annotaz.studio"
         },
         {
-          "id": "hungary",
-          "value": "Ungheria"
-        },
-        {
-          "id": "-",
-          "value": "altro"
-        }
-      ]
-    },
-    {
-      "id": "ms-materials@en",
-      "entries": [
-        {
-          "id": "parchment",
-          "value": "membr."
-        },
-        {
-          "id": "paper",
-          "value": "cart."
-        },
-        {
-          "id": "mix",
-          "value": "misto"
-        }
-      ]
-    },
-    {
-      "id": "ms-formats@en",
-      "entries": [
-        {
-          "id": "infolio",
-          "value": "in-folio"
-        },
-        {
-          "id": "in4",
-          "value": "in-4°"
-        },
-        {
-          "id": "in8",
-          "value": "in-8°"
-        },
-        {
-          "id": "in16",
-          "value": "in-16°"
-        }
-      ]
-    },
-    {
-      "id": "ms-states@en",
-      "entries": [
-        {
-          "id": "s1",
-          "value": "ottimo"
-        },
-        {
-          "id": "s2",
-          "value": "buono"
-        },
-        {
-          "id": "s3",
-          "value": "discreto"
-        },
-        {
-          "id": "s4",
-          "value": "precario"
-        },
-        {
-          "id": "s5",
-          "value": "pessimo"
-        }
-      ]
-    },
-    {
-      "id": "ms-numbering-eras@en",
-      "entries": [
-        {
-          "id": "c21",
-          "value": "coeva"
-        },
-        {
-          "id": "c14",
-          "value": "sec.XV (cod.XIV)"
-        },
-        {
-          "id": "c15",
-          "value": "antica"
-        },
-        {
-          "id": "c16",
-          "value": "moderna"
-        },
-        {
-          "id": "c19",
-          "value": "recente"
-        }
-      ]
-    },
-    {
-      "id": "ms-numbering-systems@en",
-      "entries": [
-        {
-          "id": "arabic",
-          "value": "arabo"
-        },
-        {
-          "id": "roman",
-          "value": "romano"
-        },
-        {
-          "id": "roman-arabic",
-          "value": "romano+arabo"
-        },
-        {
-          "id": "mix",
-          "value": "misto"
-        }
-      ]
-    },
-    {
-      "id": "ms-numbering-techniques@en",
-      "entries": [
-        {
-          "id": "ink",
-          "value": "inchiostro"
-        },
-        {
-          "id": "lapis",
-          "value": "lapis"
-        },
-        {
-          "id": "mechanic",
-          "value": "n. meccanico"
-        }
-      ]
-    },
-    {
-      "id": "ms-numbering-positions@en",
-      "entries": [
-        {
-          "id": "mse",
-          "value": "marg.sup.est."
-        },
-        {
-          "id": "msc",
-          "value": "marg.sup.cen."
-        },
-        {
-          "id": "msi",
-          "value": "marg.sup.int."
-        },
-        {
-          "id": "mie",
-          "value": "marg.inf.est."
-        },
-        {
-          "id": "mic",
-          "value": "marg.inf.cen."
-        },
-        {
-          "id": "mii",
-          "value": "marg.inf.int."
-        },
-        {
-          "id": "is",
-          "value": "intercol.sup."
-        },
-        {
-          "id": "ii",
-          "value": "intercol.inf."
-        }
-      ]
-    },
-    {
-      "id": "ms-catchword-positions@en",
-      "entries": [
-        {
-          "id": "mis",
-          "value": "marg.inf.sx"
-        },
-        {
-          "id": "mic",
-          "value": "marg.inf.cen."
-        },
-        {
-          "id": "mid",
-          "value": "marg.inf.dx"
-        }
-      ]
-    },
-    {
-      "id": "ms-rubrication-types@en",
-      "entries": [
-        {
-          "id": "copyst",
-          "value": "copista"
-        },
-        {
-          "id": "other",
-          "value": "altra mano"
-        }
-      ]
-    },
-    {
-      "id": "ms-decoration-types@en",
-      "entries": [
-        {
-          "id": "incipit",
-          "value": "pagina incipitaria"
-        },
-        {
-          "id": "page",
-          "value": "pagine decorate"
-        },
-        {
-          "id": "picture",
-          "value": "illustrazioni"
-        },
-        {
-          "id": "decoration",
-          "value": "ornamentazione"
-        },
-        {
-          "id": "head",
-          "value": "iniziali"
-        },
-        {
-          "id": "running",
-          "value": "titoli correnti"
-        },
-        {
-          "id": "drawing",
-          "value": "disegni"
-        },
-        {
-          "id": "frame",
-          "value": "spazi ill./iniziali n.e."
-        }
-      ]
-    },
-    {
-      "id": "ms-decoration-colors@en",
-      "entries": [
-        {
-          "id": "blue",
-          "value": "blu"
-        },
-        {
-          "id": "red",
-          "value": "rosso"
-        },
-        {
-          "id": "purple",
-          "value": "porpora"
-        },
-        {
-          "id": "green",
-          "value": "verde"
-        },
-        {
-          "id": "ochre",
-          "value": "ocra"
-        },
-        {
-          "id": "gold",
-          "value": "oro"
-        }
-      ]
-    },
-    {
-      "id": "ms-guide-positions@en",
-      "entries": [
-        {
-          "id": "below",
-          "value": "sotto iniziale"
-        },
-        {
-          "id": "above",
-          "value": "sopra iniziale"
-        },
-        {
-          "id": "left",
-          "value": "sx iniziale"
-        },
-        {
-          "id": "right",
-          "value": "dx iniziale"
-        },
-        {
-          "id": "behind",
-          "value": "coperta da iniz."
+          "id": "read",
+          "value": "annotaz.consultaz."
         }
       ]
     },
@@ -1092,6 +824,23 @@
       ]
     },
     {
+      "id": "ms-catchword-positions@en",
+      "entries": [
+        {
+          "id": "mis",
+          "value": "marg.inf.sx"
+        },
+        {
+          "id": "mic",
+          "value": "marg.inf.cen."
+        },
+        {
+          "id": "mid",
+          "value": "marg.inf.dx"
+        }
+      ]
+    },
+    {
       "id": "ms-content-states@en",
       "entries": [
         {
@@ -1121,15 +870,152 @@
       ]
     },
     {
-      "id": "ms-history-person-roles@en",
+      "id": "ms-decoration-colors@en",
       "entries": [
         {
-          "id": "owner",
-          "value": "possessore"
+          "id": "blue",
+          "value": "blu"
         },
         {
-          "id": "annotator",
-          "value": "postillatore"
+          "id": "red",
+          "value": "rosso"
+        },
+        {
+          "id": "purple",
+          "value": "porpora"
+        },
+        {
+          "id": "green",
+          "value": "verde"
+        },
+        {
+          "id": "ochre",
+          "value": "ocra"
+        },
+        {
+          "id": "gold",
+          "value": "oro"
+        }
+      ]
+    },
+    {
+      "id": "ms-decoration-types@en",
+      "entries": [
+        {
+          "id": "incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "page",
+          "value": "pagine decorate"
+        },
+        {
+          "id": "picture",
+          "value": "illustrazioni"
+        },
+        {
+          "id": "decoration",
+          "value": "ornamentazione"
+        },
+        {
+          "id": "head",
+          "value": "iniziali"
+        },
+        {
+          "id": "running",
+          "value": "titoli correnti"
+        },
+        {
+          "id": "drawing",
+          "value": "disegni"
+        },
+        {
+          "id": "frame",
+          "value": "spazi ill./iniziali n.e."
+        }
+      ]
+    },
+    {
+      "id": "ms-formats@en",
+      "entries": [
+        {
+          "id": "infolio",
+          "value": "in-folio"
+        },
+        {
+          "id": "in4",
+          "value": "in-4°"
+        },
+        {
+          "id": "in8",
+          "value": "in-8°"
+        },
+        {
+          "id": "in16",
+          "value": "in-16°"
+        }
+      ]
+    },
+    {
+      "id": "ms-guide-positions@en",
+      "entries": [
+        {
+          "id": "below",
+          "value": "sotto iniziale"
+        },
+        {
+          "id": "above",
+          "value": "sopra iniziale"
+        },
+        {
+          "id": "left",
+          "value": "sx iniziale"
+        },
+        {
+          "id": "right",
+          "value": "dx iniziale"
+        },
+        {
+          "id": "behind",
+          "value": "coperta da iniz."
+        }
+      ]
+    },
+    {
+      "id": "ms-hand-sign-types@en",
+      "entries": [
+        {
+          "id": "let",
+          "value": "letter"
+        },
+        {
+          "id": "pct",
+          "value": "punctuation"
+        }
+      ]
+    },
+    {
+      "id": "ms-hand-types@en",
+      "entries": [
+        {
+          "id": "got",
+          "value": "gotica"
+        },
+        {
+          "id": "sgt",
+          "value": "semigotica"
+        },
+        {
+          "id": "mic",
+          "value": "minuscola canc."
+        },
+        {
+          "id": "mea",
+          "value": "mercantesca a."
+        },
+        {
+          "id": "crh",
+          "value": "corsiva um."
         }
       ]
     },
@@ -1155,39 +1041,286 @@
       ]
     },
     {
-      "id": "ms-annotation-types@en",
+      "id": "ms-history-person-roles@en",
       "entries": [
         {
-          "id": "comment",
-          "value": "commento"
+          "id": "owner",
+          "value": "possessore"
         },
         {
-          "id": "note",
-          "value": "nota"
+          "id": "annotator",
+          "value": "postillatore"
+        }
+      ]
+    },
+    {
+      "id": "ms-materials@en",
+      "entries": [
+        {
+          "id": "parchment",
+          "value": "membr."
         },
         {
-          "id": "header",
-          "value": "titolo corr."
+          "id": "paper",
+          "value": "cart."
         },
         {
-          "id": "index",
-          "value": "indice"
+          "id": "mix",
+          "value": "misto"
+        }
+      ]
+    },
+    {
+      "id": "ms-numbering-eras@en",
+      "entries": [
+        {
+          "id": "c21",
+          "value": "coeva"
         },
         {
-          "id": "correction",
-          "value": "correzione"
+          "id": "c14",
+          "value": "sec.XV (cod.XIV)"
         },
         {
-          "id": "integration",
-          "value": "integrazione"
+          "id": "c15",
+          "value": "antica"
         },
         {
-          "id": "study",
-          "value": "annotaz.studio"
+          "id": "c16",
+          "value": "moderna"
         },
         {
-          "id": "read",
-          "value": "annotaz.consultaz."
+          "id": "c19",
+          "value": "recente"
+        }
+      ]
+    },
+    {
+      "id": "ms-numbering-positions@en",
+      "entries": [
+        {
+          "id": "mse",
+          "value": "marg.sup.est."
+        },
+        {
+          "id": "msc",
+          "value": "marg.sup.cen."
+        },
+        {
+          "id": "msi",
+          "value": "marg.sup.int."
+        },
+        {
+          "id": "mie",
+          "value": "marg.inf.est."
+        },
+        {
+          "id": "mic",
+          "value": "marg.inf.cen."
+        },
+        {
+          "id": "mii",
+          "value": "marg.inf.int."
+        },
+        {
+          "id": "is",
+          "value": "intercol.sup."
+        },
+        {
+          "id": "ii",
+          "value": "intercol.inf."
+        }
+      ]
+    },
+    {
+      "id": "ms-numbering-systems@en",
+      "entries": [
+        {
+          "id": "arabic",
+          "value": "arabo"
+        },
+        {
+          "id": "roman",
+          "value": "romano"
+        },
+        {
+          "id": "roman-arabic",
+          "value": "romano+arabo"
+        },
+        {
+          "id": "mix",
+          "value": "misto"
+        }
+      ]
+    },
+    {
+      "id": "ms-numbering-techniques@en",
+      "entries": [
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        },
+        {
+          "id": "lapis",
+          "value": "lapis"
+        },
+        {
+          "id": "mechanic",
+          "value": "n. meccanico"
+        }
+      ]
+    },
+    {
+      "id": "ms-place-areas@en",
+      "entries": [
+        {
+          "id": "italy",
+          "value": "Italia"
+        },
+        {
+          "id": "france",
+          "value": "Francia"
+        },
+        {
+          "id": "germany",
+          "value": "Germania"
+        },
+        {
+          "id": "england",
+          "value": "Inghilterra"
+        },
+        {
+          "id": "spain",
+          "value": "Spagna"
+        },
+        {
+          "id": "portugal",
+          "value": "Portogallo"
+        },
+        {
+          "id": "bohemia",
+          "value": "Boemia"
+        },
+        {
+          "id": "hungary",
+          "value": "Ungheria"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "ms-provenance-areas@en",
+      "entries": [
+        {
+          "id": "italy",
+          "value": "Italia"
+        },
+        {
+          "id": "france",
+          "value": "Francia"
+        },
+        {
+          "id": "germany",
+          "value": "Germania"
+        },
+        {
+          "id": "england",
+          "value": "Inghilterra"
+        },
+        {
+          "id": "spain",
+          "value": "Spagna"
+        },
+        {
+          "id": "portugal",
+          "value": "Portogallo"
+        },
+        {
+          "id": "bohemia",
+          "value": "Boemia"
+        },
+        {
+          "id": "hungary",
+          "value": "Ungheria"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "ms-rubrication-types@en",
+      "entries": [
+        {
+          "id": "copyst",
+          "value": "copista"
+        },
+        {
+          "id": "other",
+          "value": "altra mano"
+        }
+      ]
+    },
+    {
+      "id": "ms-states@en",
+      "entries": [
+        {
+          "id": "s1",
+          "value": "ottimo"
+        },
+        {
+          "id": "s2",
+          "value": "buono"
+        },
+        {
+          "id": "s3",
+          "value": "discreto"
+        },
+        {
+          "id": "s4",
+          "value": "precario"
+        },
+        {
+          "id": "s5",
+          "value": "pessimo"
+        }
+      ]
+    },
+    {
+      "id": "person-name-types@en",
+      "entries": [
+        {
+          "id": "first",
+          "value": "first"
+        },
+        {
+          "id": "last",
+          "value": "last"
+        },
+        {
+          "id": "name",
+          "value": "name"
+        },
+        {
+          "id": "title",
+          "value": "title"
+        }
+      ]
+    },
+    {
+      "id": "physical-size-units@en",
+      "entries": [
+        {
+          "id": "cm",
+          "value": "cm"
+        },
+        {
+          "id": "mm",
+          "value": "mm"
         }
       ]
     }
