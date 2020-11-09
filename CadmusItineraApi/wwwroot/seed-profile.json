@@ -1323,6 +1323,63 @@
           "value": "mm"
         }
       ]
+    },
+    {
+      "id": "text-metres@en",
+      "entries": [
+        {
+          "id": "ballata",
+          "value": "ballata"
+        },
+        {
+          "id": "canzone",
+          "value": "canzone"
+        },
+        {
+          "id": "distici",
+          "value": "distici"
+        },
+        {
+          "id": "frottola",
+          "value": "frottola"
+        },
+        {
+          "id": "madrigale",
+          "value": "madrigale"
+        },
+        {
+          "id": "mottetto",
+          "value": "mottetto"
+        },
+        {
+          "id": "ottava",
+          "value": "ottava"
+        },
+        {
+          "id": "plazer",
+          "value": "plazer"
+        },
+        {
+          "id": "sestina",
+          "value": "sestina"
+        },
+        {
+          "id": "sirventese",
+          "value": "sirventese"
+        },
+        {
+          "id": "sonetto",
+          "value": "sonetto"
+        },
+        {
+          "id": "stanza",
+          "value": "stanza di canzone"
+        },
+        {
+          "id": "terzina",
+          "value": "terzina"
+        }
+      ]
     }
   ],
   "seed": {
