@@ -306,9 +306,7 @@ namespace CadmusItineraApi
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                // options.BooleanValues(new object[] { 0, 1 });
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "V1 Docs");
-                // options.ShowJsonEditor();
             });
         }
     }
