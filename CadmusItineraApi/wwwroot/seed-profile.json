@@ -452,9 +452,15 @@
   "flags": [
     {
       "id": 1,
-      "label": "to revise",
-      "description": "The item must be revised.",
-      "colorKey": "F08080"
+      "label": "complete",
+      "description": "The item is complete.",
+      "colorKey": "F0B880"
+    },
+    {
+      "id": 2,
+      "label": "revised",
+      "description": "The item has been revised.",
+      "colorKey": "80F080"
     }
   ],
   "index": {
