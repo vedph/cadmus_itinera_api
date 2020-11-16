@@ -1,6 +1,6 @@
 # Cadmus Itinera API
 
-Quick Docker image build: `docker build . -t vedph2020/cadmus_itinera_api:1.0.11 -t vedph2020/cadmus_itinera_api:latest` (replace with the current version).
+Quick Docker image build: `docker build . -t vedph2020/cadmus_itinera_api:1.0.12 -t vedph2020/cadmus_itinera_api:latest` (replace with the current version).
 
 This is a Cadmus API layer customized for the Itinera project. Most of its code is derived from shared Cadmus libraries.
 
@@ -11,6 +11,9 @@ This is a Cadmus API layer customized for the Itinera project. Most of its code 
 2. add packages:
 
 - `AspNetCore.Identity.Mongo`
+- `Cadmus.Api.Controllers`
+- `Cadmus.Api.Models`
+- `Cadmus.Api.Services`
 - `Microsoft.AspNetCore.Authentication.JwtBearer`
 - `Microsoft.AspNetCore.Mvc.NewtonsoftJson`
 - `Polly`
@@ -21,9 +24,7 @@ This is a Cadmus API layer customized for the Itinera project. Most of its code 
 - `Serilog.Sinks.Console`
 - `Serilog.Sinks.File`
 - `Serilog.Sinks.MongoDB`
-- `Swashbuckle.AspNetCore.Swagger`
-- `Swashbuckle.AspNetCore.SwaggerGen`
-- `Swashbuckle.AspNetCore.SwaggerUi`
+- `Swashbuckle.AspNetCore`
 - `Cadmus.Itinera.Models`
 - `Cadmus.Itinera.Services`
 - `Cadmus.Itinera.Controllers`
