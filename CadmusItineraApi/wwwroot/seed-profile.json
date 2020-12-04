@@ -164,6 +164,15 @@
           "groupKey": "correspondent",
           "sortKey": "ep-person",
           "required": true
+        },
+        {
+          "typeId": "it.vedph.itinera.person-works",
+          "roleId": "",
+          "name": "works",
+          "description": "Person's works.",
+          "colorKey": "AE62EE",
+          "groupKey": "correspondent",
+          "sortKey": "ep-person-works"
         }
       ]
     },
@@ -528,6 +537,10 @@
           "value": "person"
         },
         {
+          "id": "it.vedph.itinera.person-works",
+          "value": "works"
+        },
+        {
           "id": "it.vedph.itinera.poetic-text-info",
           "value": "poetic info"
         },
@@ -704,32 +717,68 @@
       "id": "bio-event-types@en",
       "entries": [
         {
-          "id": "birth",
-          "value": "nascita"
+          "id": "abilitation",
+          "value": "abilitazione"
         },
         {
-          "id": "work",
-          "value": "opera"
+          "id": "purchase",
+          "value": "acquisto"
+        },
+        {
+          "id": "copy",
+          "value": "attività di copia"
+        },
+        {
+          "id": "legal",
+          "value": "atto giuridico"
+        },
+        {
+          "id": "composition",
+          "value": "composizione"
+        },
+        {
+          "id": "job",
+          "value": "professione"
         },
         {
           "id": "meeting",
           "value": "incontro"
         },
         {
+          "id": "enroll",
+          "value": "iscrizione"
+        },
+        {
           "id": "wedding",
           "value": "matrimonio"
+        },
+        {
+          "id": "diplomatic",
+          "value": "missione diplomatica"
+        },
+        {
+          "id": "death",
+          "value": "morte"
+        },
+        {
+          "id": "birth",
+          "value": "nascita"
+        },
+        {
+          "id": "appointment",
+          "value": "nomina"
+        },
+        {
+          "id": "note",
+          "value": "postille/annotazioni"
         },
         {
           "id": "travel",
           "value": "viaggio"
         },
         {
-          "id": "movement",
-          "value": "trasferimento"
-        },
-        {
-          "id": "death",
-          "value": "morte"
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -741,12 +790,20 @@
           "value": "manoscritto"
         },
         {
+          "id": "work",
+          "value": "opera/testo"
+        },
+        {
           "id": "letter",
           "value": "lettera"
         },
         {
-          "id": "work",
-          "value": "opera"
+          "id": "object",
+          "value": "oggetto"
+        },
+        {
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -1498,6 +1555,9 @@
       },
       {
         "id": "seed.it.vedph.itinera.person-events"
+      },
+      {
+        "id": "seed.it.vedph.itinera.person-works"
       },
       {
         "id": "seed.it.vedph.itinera.poetic-text-info"
