@@ -28,9 +28,9 @@ using Cadmus.Index.Config;
 using Cadmus.Api.Services.Auth;
 using Cadmus.Api.Services.Messaging;
 using Cadmus.Api.Services;
-using CadmusItineraApi.Services;
 using System.Linq;
 using Microsoft.AspNetCore.HttpOverrides;
+using Cadmus.Itinera.Services;
 
 namespace CadmusItineraApi
 {
@@ -236,10 +236,10 @@ namespace CadmusItineraApi
             // configuration
             services.AddSingleton(_ => Configuration);
             // repository
-            services.AddSingleton<IRepositoryProvider, AppRepositoryProvider>();
+            services.AddSingleton<IRepositoryProvider, ItineraRepositoryProvider>();
             // part seeder factory provider
             services.AddSingleton<IPartSeederFactoryProvider,
-                AppPartSeederFactoryProvider>();
+                ItineraPartSeederFactoryProvider>();
             // item browser factory provider
             services.AddSingleton<IItemBrowserFactoryProvider>(_ =>
                 new StandardItemBrowserFactoryProvider(
