@@ -18,9 +18,9 @@ xcopy %src%cadmus.api.models\1.0.5\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.api.services\1.0.11\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.api.controllers\1.0.8\*.nupkg .\local-packages\ /y
 
-xcopy %src%cadmus.itinera.services\1.0.13\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.itinera.parts\1.0.8\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.seed.itinera.parts\1.0.12\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.seed.itinera.parts\1.0.13\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.itinera.services\1.0.14\*.nupkg .\local-packages\ /y
 
 xcopy %src%cadmus.core\2.3.2\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.index\1.1.3\*.nupkg .\local-packages\ /y
