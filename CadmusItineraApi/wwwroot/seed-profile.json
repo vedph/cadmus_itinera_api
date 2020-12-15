@@ -139,21 +139,11 @@
         },
         {
           "typeId": "it.vedph.itinera.person-events",
-          "roleId": "ebio",
-          "name": "c-bio events",
+          "name": "c-events",
           "description": "Biographic events connected to a correspondent.",
           "colorKey": "988BD2",
           "groupKey": "correspondent",
-          "sortKey": "ep-person-events-b"
-        },
-        {
-          "typeId": "it.vedph.itinera.person-events",
-          "roleId": "emet",
-          "name": "person events",
-          "description": "Meetings between a correspondent and the reference author.",
-          "colorKey": "988BD2",
-          "groupKey": "correspondent",
-          "sortKey": "ep-person-events-m"
+          "sortKey": "ep-person-events"
         },
         {
           "typeId": "it.vedph.itinera.person",
