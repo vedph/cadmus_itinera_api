@@ -66,7 +66,7 @@
           "colorKey": "76CB9C",
           "groupKey": "letter",
           "sortKey": "ep-letter-info",
-          "required": true
+          "isRequired": true
         }
       ]
     },
@@ -153,7 +153,7 @@
           "colorKey": "62AEEE",
           "groupKey": "correspondent",
           "sortKey": "ep-person",
-          "required": true
+          "isRequired": true
         },
         {
           "typeId": "it.vedph.itinera.person-works",
@@ -223,7 +223,7 @@
           "colorKey": "D28BA2",
           "groupKey": "poetic",
           "sortKey": "ep-poetic-text-info",
-          "required": true
+          "isRequired": true
         }
       ]
     },
@@ -391,7 +391,7 @@
           "colorKey": "D7D5DB",
           "groupKey": "manuscript",
           "sortKey": "ms-signatures",
-          "required": true
+          "isRequired": true
         },
         {
           "typeId": "it.vedph.itinera.ms-watermarks",
@@ -434,7 +434,7 @@
           "colorKey": "9D7EDD",
           "groupKey": "hand",
           "sortKey": "hand",
-          "required": true
+          "isRequired": true
         },
         {
           "typeId": "it.vedph.itinera.person",
