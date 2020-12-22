@@ -312,13 +312,13 @@
           "sortKey": "ms-decoration"
         },
         {
-          "typeId": "it.vedph.itinera.ms-dimensions",
+          "typeId": "it.vedph.itinera.ms-layouts",
           "roleId": "",
-          "name": "ms dimensions",
-          "description": "Manuscript's dimensions.",
+          "name": "ms layouts",
+          "description": "Manuscript's layouts.",
           "colorKey": "72EAF7",
           "groupKey": "manuscript",
-          "sortKey": "ms-dimensions"
+          "sortKey": "ms-layouts"
         },
         {
           "typeId": "it.vedph.itinera.ms-hands",
@@ -559,8 +559,8 @@
           "value": "ms decorations"
         },
         {
-          "id": "it.vedph.itinera.ms-dimensions",
-          "value": "ms dimensions"
+          "id": "it.vedph.itinera.ms-layouts",
+          "value": "ms layouts"
         },
         {
           "id": "it.vedph.itinera.ms-hands",
@@ -1484,7 +1484,7 @@
         "id": "seed.it.vedph.itinera.ms-decorations"
       },
       {
-        "id": "seed.it.vedph.itinera.ms-dimensions"
+        "id": "seed.it.vedph.itinera.ms-layouts"
       },
       {
         "id": "seed.it.vedph.itinera.ms-hands"
