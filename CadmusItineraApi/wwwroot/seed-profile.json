@@ -1035,6 +1035,23 @@
       ]
     },
     {
+      "id": "ms-languages@en",
+      "entries": [
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        }
+      ]
+    },
+    {
       "id": "ms-hand-sign-types@en",
       "entries": [
         {
