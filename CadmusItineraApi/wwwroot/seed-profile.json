@@ -992,6 +992,10 @@
       "id": "ms-formats@en",
       "entries": [
         {
+          "id": "-",
+          "value": "---"
+        },
+        {
           "id": "infolio",
           "value": "in-folio"
         },
