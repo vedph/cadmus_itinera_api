@@ -14,9 +14,9 @@ xcopy %src%fusi.microsoft.extensions.configuration.inmemoryjson\1.0.2\*.nupkg .\
 
 xcopy %src%messagingapi\1.0.1\*.nupkg .\local-packages\ /y
 
-xcopy %src%cadmus.api.models\1.0.5\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.api.services\1.0.12\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.api.controllers\1.0.9\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.api.models\1.0.7\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.api.services\1.0.14\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.api.controllers\1.0.11\*.nupkg .\local-packages\ /y
 
 xcopy %src%cadmus.itinera.parts\1.1.1\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.seed.itinera.parts\1.1.1\*.nupkg .\local-packages\ /y
@@ -27,11 +27,11 @@ xcopy %src%cadmus.index\1.1.3\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.index.sql\1.1.5\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.mongo\2.3.5\*.nupkg .\local-packages\ /y
 
-xcopy %src%cadmus.parts\2.3.2\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.parts\2.3.4\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.philology.parts\2.3.3\*.nupkg .\local-packages\ /y
 
 xcopy %src%cadmus.seed\1.1.4\*.nupkg .\local-packages\ /y
-xcopy %src%cadmus.seed.parts\1.1.4\*.nupkg .\local-packages\ /y
+xcopy %src%cadmus.seed.parts\1.1.7\*.nupkg .\local-packages\ /y
 xcopy %src%cadmus.seed.philology.parts\1.1.5\*.nupkg .\local-packages\ /y
 
 xcopy %src%cadmus.archive.parts\2.3.2\*.nupkg .\local-packages\ /y
