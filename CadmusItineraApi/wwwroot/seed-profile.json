@@ -15,7 +15,7 @@
           "sortKey": "note"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -85,7 +85,7 @@
           "sortKey": "note"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -181,7 +181,7 @@
           "sortKey": "note"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -242,7 +242,7 @@
           "sortKey": "note"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -419,7 +419,7 @@
           "sortKey": "note"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -479,7 +479,7 @@
           "value": "note"
         },
         {
-          "id": "it.vedph.bibliography",
+          "id": "it.vedph.ext-bibliography",
           "value": "bibliography"
         },
         {
@@ -642,52 +642,7 @@
       ]
     },
     {
-      "id": "bibliography-types@en",
-      "entries": [
-        {
-          "id": "book",
-          "value": "book"
-        },
-        {
-          "id": "article-j",
-          "value": "journal article"
-        },
-        {
-          "id": "article-b",
-          "value": "book article"
-        },
-        {
-          "id": "article-p",
-          "value": "proceedings article"
-        },
-        {
-          "id": "review",
-          "value": "review"
-        },
-        {
-          "id": "ebook",
-          "value": "e-book"
-        },
-        {
-          "id": "site",
-          "value": "web site"
-        },
-        {
-          "id": "magazine",
-          "value": "magazine"
-        },
-        {
-          "id": "newspaper",
-          "value": "newspaper"
-        },
-        {
-          "id": "tweet",
-          "value": "tweet"
-        }
-      ]
-    },
-    {
-      "id": "bibliography-author-roles@en",
+      "id": "ext-biblio-author-roles@en",
       "entries": [
         {
           "id": "ed",
@@ -700,6 +655,31 @@
         {
           "id": "org",
           "value": "organization"
+        }
+      ]
+    },
+    {
+      "id": "ext-biblio-languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "fra",
+          "value": "French"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
         }
       ]
     },
@@ -1466,19 +1446,6 @@
     "partSeeders": [
       {
         "id": "seed.it.vedph.historical-date"
-      },
-      {
-        "id": "seed.it.vedph.bibliography",
-        "options": {
-          "authors": [
-            "Doe,Jane",
-            "Doherty,Charles",
-            "Orwell,William",
-            "Sampson,James",
-            "Voss,Francis"
-          ],
-          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
-        }
       },
       {
         "id": "seed.it.vedph.note",
