@@ -1320,6 +1320,35 @@
       ]
     },
     {
+      "id": "ms-ruling-techniques@en",
+      "entries": [
+        {
+          "id": "dry",
+          "value": "a secco"
+        },
+        {
+          "id": "color",
+          "value": "a colore"
+        },
+        {
+          "id": "mine",
+          "value": "a mina di piombo"
+        },
+        {
+          "id": "ink",
+          "value": "a inchiostro"
+        },
+        {
+          "id": "fold",
+          "value": "per piegatura"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
       "id": "ms-states@en",
       "entries": [
         {
@@ -1382,56 +1411,36 @@
       "id": "text-metres@en",
       "entries": [
         {
-          "id": "ballata",
-          "value": "ballata"
-        },
-        {
           "id": "canzone",
           "value": "canzone"
         },
         {
-          "id": "distici",
-          "value": "distici"
+          "id": "carme",
+          "value": "carme"
         },
         {
-          "id": "frottola",
-          "value": "frottola"
+          "id": "egloga",
+          "value": "egloga"
         },
         {
-          "id": "madrigale",
-          "value": "madrigale"
-        },
-        {
-          "id": "mottetto",
-          "value": "mottetto"
-        },
-        {
-          "id": "ottava",
-          "value": "ottava"
-        },
-        {
-          "id": "plazer",
-          "value": "plazer"
-        },
-        {
-          "id": "sestina",
-          "value": "sestina"
-        },
-        {
-          "id": "sirventese",
-          "value": "sirventese"
+          "id": "epigramma",
+          "value": "epigramma"
         },
         {
           "id": "sonetto",
           "value": "sonetto"
         },
         {
+          "id": "sonetto-c",
+          "value": "sonetto caudato/ritornellato"
+        },
+        {
           "id": "stanza",
           "value": "stanza di canzone"
         },
         {
-          "id": "terzina",
-          "value": "terzina"
+          "id": "terza",
+          "value": "terza rima"
         }
       ]
     }
