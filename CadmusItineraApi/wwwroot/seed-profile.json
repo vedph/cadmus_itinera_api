@@ -844,7 +844,16 @@
     },
     {
       "id": "ms-decoration-artist-types@en",
-      "entries": []
+      "entries": [
+        {
+          "id": "illuminator",
+          "value": "illuminator"
+        },
+        {
+          "id": "painter",
+          "value": "painter"
+        }
+      ]
     },
     {
       "id": "ms-decoration-elem-colors@en",
@@ -877,31 +886,98 @@
     },
     {
       "id": "ms-decoration-elem-flags@en",
-      "entries": []
+      "entries": [
+        {
+          "id": "original",
+          "value": "original"
+        },
+        {
+          "id": "unitary",
+          "value": "unitary"
+        },
+        {
+          "id": "complete",
+          "value": "complete"
+        }
+      ]
     },
     {
       "id": "ms-decoration-elem-gildings@en",
-      "entries": []
+      "entries": [
+        {
+          "id": "leaf",
+          "value": "leaf"
+        },
+        {
+          "id": "powder",
+          "value": "powder"
+        }
+      ]
     },
     {
       "id": "ms-decoration-elem-techniques@en",
-      "entries": []
+      "entries": [
+        {
+          "id": "tech1",
+          "value": "technique 1"
+        },
+        {
+          "id": "tech2",
+          "value": "technique 2"
+        }
+      ]
     },
     {
       "id": "ms-decoration-elem-positions@en",
-      "entries": []
+      "entries": [
+        {
+          "id": "",
+          "value": ""
+        }
+      ]
     },
     {
       "id": "ms-decoration-elem-tools@en",
-      "entries": []
+      "entries": [
+        {
+          "id": "pen",
+          "value": "pen"
+        },
+        {
+          "id": "brush",
+          "value": "brush"
+        }
+      ]
     },
     {
       "id": "ms-decoration-elem-typologies@en",
-      "entries": []
+      "entries": [
+        {
+          "id": "pag-dec.adorned",
+          "value": "adorned"
+        },
+        {
+          "id": "pag-dec.illustrated",
+          "value": "illustrated"
+        },
+        {
+          "id": "orn.frieze",
+          "value": "frieze"
+        },
+        {
+          "id": "orn.frame",
+          "value": "frame"
+        }
+      ]
     },
     {
-      "id": "ms-decoration-type-deps@en",
-      "entries": []
+      "id": "ms-decoration-type-hidden@en",
+      "entries": [
+        {
+          "id": "pag-inc",
+          "value": "technique"
+        }
+      ]
     },
     {
       "id": "ms-decoration-elem-types@en",
