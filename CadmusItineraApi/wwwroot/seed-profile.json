@@ -843,7 +843,11 @@
       ]
     },
     {
-      "id": "ms-decoration-colors@en",
+      "id": "ms-decoration-artist-types@en",
+      "entries": []
+    },
+    {
+      "id": "ms-decoration-elem-colors@en",
       "entries": [
         {
           "id": "blue",
@@ -872,39 +876,99 @@
       ]
     },
     {
-      "id": "ms-decoration-types@en",
+      "id": "ms-decoration-elem-flags@en",
+      "entries": []
+    },
+    {
+      "id": "ms-decoration-elem-gildings@en",
+      "entries": []
+    },
+    {
+      "id": "ms-decoration-elem-techniques@en",
+      "entries": []
+    },
+    {
+      "id": "ms-decoration-elem-positions@en",
+      "entries": []
+    },
+    {
+      "id": "ms-decoration-elem-tools@en",
+      "entries": []
+    },
+    {
+      "id": "ms-decoration-elem-typologies@en",
+      "entries": []
+    },
+    {
+      "id": "ms-decoration-type-deps@en",
+      "entries": []
+    },
+    {
+      "id": "ms-decoration-elem-types@en",
       "entries": [
         {
-          "id": "incipit",
+          "id": "pag-inc",
           "value": "pagina incipitaria"
         },
         {
-          "id": "page",
-          "value": "pagine decorate"
+          "id": "pag-dec",
+          "value": "pagina decorata"
         },
         {
-          "id": "picture",
-          "value": "illustrazioni"
+          "id": "ill",
+          "value": "illustrazione"
         },
         {
-          "id": "decoration",
+          "id": "orn",
           "value": "ornamentazione"
         },
         {
-          "id": "head",
-          "value": "iniziali"
+          "id": "orn-elm",
+          "value": "ornamentazione - elemento"
         },
         {
-          "id": "running",
-          "value": "titoli correnti"
+          "id": "ini-pla",
+          "value": "iniziali - semplici"
         },
         {
-          "id": "drawing",
-          "value": "disegni"
+          "id": "ini-let",
+          "value": "iniziali - semplici - lettera"
         },
         {
-          "id": "frame",
-          "value": "spazi ill./iniziali n.e."
+          "id": "ini-wat",
+          "value": "iniziali - filigranate"
+        },
+        {
+          "id": "ini-wtl",
+          "value": "iniziali - filigranate - lettera"
+        },
+        {
+          "id": "ini-orn",
+          "value": "iniziali - ornate"
+        },
+        {
+          "id": "ini-orl",
+          "value": "iniziali - ornate - lettera"
+        },
+        {
+          "id": "ini-fig",
+          "value": "iniziali - con figura"
+        },
+        {
+          "id": "ini-fil",
+          "value": "iniziali - con figura - lettera"
+        },
+        {
+          "id": "par",
+          "value": "paragrafematici"
+        },
+        {
+          "id": "wsp",
+          "value": "spazi bianchi"
+        },
+        {
+          "id": "ext",
+          "value": "illustrazioni estemporanee"
         }
       ]
     },
