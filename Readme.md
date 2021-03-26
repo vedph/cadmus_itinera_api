@@ -3,7 +3,8 @@
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus_itinera_api:1.0.26 -t vedph2020/cadmus_itinera_api:latest
+docker build . -t vedph2020/cadmus_itinera_api:1.0.27 -t vedph2020/cadmus_itinera_api:latest
+docker push vedph2020/cadmus_itinera_api:1.0.27
 ```
 
 (replace with the current version).
