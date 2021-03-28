@@ -50,7 +50,7 @@
           "sortKey": "ep-cited-persons"
         },
         {
-          "typeId": "it.vedph.itinera.doc-references",
+          "typeId": "it.vedph.doc-references",
           "roleId": "",
           "name": "references",
           "description": "Document references related to a letter.",
@@ -111,7 +111,7 @@
           "sortKey": "ep-exchanges"
         },
         {
-          "typeId": "it.vedph.itinera.doc-references",
+          "typeId": "it.vedph.doc-references",
           "roleId": "auth",
           "name": "a-refs",
           "description": "Document references by the reference author to the correspondent.",
@@ -120,7 +120,7 @@
           "sortKey": "ep-doc-refs-a"
         },
         {
-          "typeId": "it.vedph.itinera.doc-references",
+          "typeId": "it.vedph.doc-references",
           "roleId": "corr",
           "name": "c-refs",
           "description": "Document references by the correspondent to the reference author.",
@@ -435,7 +435,7 @@
           "value": "date"
         },
         {
-          "id": "it.vedph.itinera.doc-references",
+          "id": "it.vedph.doc-references",
           "value": "references"
         },
         {
@@ -1621,7 +1621,7 @@
         "id": "seed.it.vedph.itinera.corr-exchanges"
       },
       {
-        "id": "seed.it.vedph.itinera.doc-references"
+        "id": "seed.it.vedph.doc-references"
       },
       {
         "id": "seed.it.vedph.itinera.serial-text-info"
