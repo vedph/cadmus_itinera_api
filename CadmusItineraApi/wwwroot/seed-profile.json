@@ -867,20 +867,8 @@
           "value": "rosso"
         },
         {
-          "id": "purple",
-          "value": "porpora"
-        },
-        {
           "id": "green",
           "value": "verde"
-        },
-        {
-          "id": "ochre",
-          "value": "ocra"
-        },
-        {
-          "id": "gold",
-          "value": "oro"
         }
       ]
     },
@@ -905,25 +893,16 @@
       "id": "ms-decoration-elem-gildings@en",
       "entries": [
         {
+          "id": "brush",
+          "value": "pennello"
+        },
+        {
           "id": "leaf",
-          "value": "leaf"
+          "value": "foglia"
         },
         {
           "id": "powder",
-          "value": "powder"
-        }
-      ]
-    },
-    {
-      "id": "ms-decoration-elem-techniques@en",
-      "entries": [
-        {
-          "id": "tech1",
-          "value": "technique 1"
-        },
-        {
-          "id": "tech2",
-          "value": "technique 2"
+          "value": "polvere"
         }
       ]
     },
@@ -931,20 +910,80 @@
       "id": "ms-decoration-elem-positions@en",
       "entries": [
         {
-          "id": "top-left",
-          "value": "top-left"
+          "id": "ill.full-page",
+          "value": "a piena pagina"
         },
         {
-          "id": "top-right",
-          "value": "top-right"
+          "id": "ill.interpol",
+          "value": "intercalata"
         },
         {
-          "id": "bottom-left",
-          "value": "bottom-left"
+          "id": "ill.intercol",
+          "value": "intercolumnio"
         },
         {
-          "id": "bottom-right",
-          "value": "bottom-right"
+          "id": "ill.margin-l",
+          "value": "margine dx"
+        },
+        {
+          "id": "ill.margin-r",
+          "value": "margine sx"
+        },
+        {
+          "id": "ill.margin-t",
+          "value": "margine superiore"
+        },
+        {
+          "id": "ill.foot",
+          "value": "bas de page"
+        },
+        {
+          "id": "ill.other",
+          "value": "altro"
+        },
+        {
+          "id": "ini-pla.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-pla.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "ini-wat.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-wat.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "ini-orn.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-orn.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "ini-fig.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-fig.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "orn.-",
+          "value": ""
+        },
+        {
+          "id": "par.-",
+          "value": ""
+        },
+        {
+          "id": "ext.-",
+          "value": ""
         }
       ]
     },
@@ -953,11 +992,11 @@
       "entries": [
         {
           "id": "pen",
-          "value": "pen"
+          "value": "penna"
         },
         {
           "id": "brush",
-          "value": "brush"
+          "value": "pennello"
         }
       ]
     },
@@ -966,19 +1005,103 @@
       "entries": [
         {
           "id": "pag-dec.adorned",
-          "value": "adorned"
+          "value": "ornata"
         },
         {
           "id": "pag-dec.illustrated",
-          "value": "illustrated"
+          "value": "illustrata"
+        },
+        {
+          "id": "ill.miniature",
+          "value": "miniatura"
+        },
+        {
+          "id": "ill.drawing",
+          "value": "disegno"
+        },
+        {
+          "id": "ill.tabular",
+          "value": "tabellare"
+        },
+        {
+          "id": "ill.field",
+          "value": "campo aperto"
         },
         {
           "id": "orn.frieze",
-          "value": "frieze"
+          "value": "fregio"
         },
         {
           "id": "orn.frame",
-          "value": "frame"
+          "value": "cornice"
+        },
+        {
+          "id": "orn.grotesque",
+          "value": "grottesca"
+        },
+        {
+          "id": "orn.coat",
+          "value": "stemma"
+        },
+        {
+          "id": "ini-orn.zoomrp",
+          "value": "zoomorfa"
+        },
+        {
+          "id": "ini-orn.phytomrp",
+          "value": "fitomorfa"
+        },
+        {
+          "id": "ini-orn.anthropomrp",
+          "value": "antropomorfa"
+        },
+        {
+          "id": "ini-orn.prism",
+          "value": "prismatica"
+        },
+        {
+          "id": "ini-orn.tendrils",
+          "value": "bianchi girari"
+        },
+        {
+          "id": "ini-orn.kaleidoscopic",
+          "value": "caleidoscopica"
+        },
+        {
+          "id": "ini-orn.geometric",
+          "value": "geometrica"
+        },
+        {
+          "id": "ini-orn.other",
+          "value": "altro"
+        },
+        {
+          "id": "ini-fig.stained",
+          "value": "istoriata"
+        },
+        {
+          "id": "ini-fig.figurative",
+          "value": "figurata"
+        },
+        {
+          "id": "par.run-heads",
+          "value": "titoli correnti"
+        },
+        {
+          "id": "par.rubrication",
+          "value": "rubricatura"
+        },
+        {
+          "id": "par.paragraph",
+          "value": "segni di paragrafo"
+        },
+        {
+          "id": "par.cartulation",
+          "value": "cartulazione"
+        },
+        {
+          "id": "par.other",
+          "value": "altro"
         }
       ]
     },
@@ -987,7 +1110,43 @@
       "entries": [
         {
           "id": "pag-inc",
-          "value": "technique"
+          "value": "typologies position technique tool lineHeight"
+        },
+        {
+          "id": "pag-dec",
+          "value": "position technique tool lineHeight"
+        },
+        {
+          "id": "ill",
+          "value": "lineHeight"
+        },
+        {
+          "id": "orn",
+          "value": "subject textRelation lineHeight"
+        },
+        {
+          "id": "ini-pla",
+          "value": "gilding typologies subject textRelation"
+        },
+        {
+          "id": "ini-wat",
+          "value": "gilding typologies subject textRelation"
+        },
+        {
+          "id": "ini-orn",
+          "value": "subject textRelation"
+        },
+        {
+          "id": "par",
+          "value": "gilding technique subject textRelation lineHeight"
+        },
+        {
+          "id": "wsp",
+          "value": "colors gilding typologies description imageId position technique subject textRelation tool lineHeight"
+        },
+        {
+          "id": "ext",
+          "value": "gilding typologies technique subject textRelation lineHeight"
         }
       ]
     },
@@ -1011,40 +1170,20 @@
           "value": "ornamentazione"
         },
         {
-          "id": "orn-elm",
-          "value": "ornamentazione - elemento"
-        },
-        {
           "id": "ini-pla",
           "value": "iniziali - semplici"
-        },
-        {
-          "id": "ini-let",
-          "value": "iniziali - semplici - lettera"
         },
         {
           "id": "ini-wat",
           "value": "iniziali - filigranate"
         },
         {
-          "id": "ini-wtl",
-          "value": "iniziali - filigranate - lettera"
-        },
-        {
           "id": "ini-orn",
           "value": "iniziali - ornate"
         },
         {
-          "id": "ini-orl",
-          "value": "iniziali - ornate - lettera"
-        },
-        {
           "id": "ini-fig",
           "value": "iniziali - con figura"
-        },
-        {
-          "id": "ini-fil",
-          "value": "iniziali - con figura - lettera"
         },
         {
           "id": "par",
@@ -1056,7 +1195,7 @@
         },
         {
           "id": "ext",
-          "value": "illustrazioni estemporanee"
+          "value": "immagini estemporanee"
         }
       ]
     },
