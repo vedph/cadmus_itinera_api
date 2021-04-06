@@ -537,10 +537,6 @@
         {
           "id": "it.vedph.itinera.ms-watermarks",
           "value": "ms watermarks"
-        },
-        {
-          "id": "it.vedph.itinera.person-hand",
-          "value": "hand"
         }
       ]
     },
@@ -1605,6 +1601,10 @@
       ]
     },
     {
+      "id": "person-name-languages@en",
+      "targetId": "languages"
+    },
+    {
       "id": "person-name-types@en",
       "entries": [
         {
@@ -1637,6 +1637,10 @@
           "value": "mm"
         }
       ]
+    },
+    {
+      "id": "serial-text-languages@en",
+      "targetId": "languages"
     },
     {
       "id": "text-metres@en",
@@ -1740,9 +1744,6 @@
       },
       {
         "id": "seed.it.vedph.itinera.ms-watermarks"
-      },
-      {
-        "id": "seed.it.vedph.itinera.person-hand"
       },
       {
         "id": "seed.it.vedph.itinera.attachments"
