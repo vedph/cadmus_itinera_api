@@ -12,7 +12,7 @@
           "description": "A free text note.",
           "colorKey": "B0A0F8",
           "groupKey": "general",
-          "sortKey": "note"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -20,7 +20,7 @@
           "description": "Bibliography.",
           "colorKey": "20B2AA",
           "groupKey": "general",
-          "sortKey": "bibliography"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.itinera.attachments",
@@ -29,7 +29,7 @@
           "description": "Attachments connected to some document.",
           "colorKey": "EEE862",
           "groupKey": "letter",
-          "sortKey": "ep-attachments"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.itinera.chronotopics",
@@ -38,7 +38,7 @@
           "description": "Chronological and topological coordinates.",
           "colorKey": "F48483",
           "groupKey": "letter",
-          "sortKey": "ep-chronotopics"
+          "sortKey": "b"
         },
         {
           "typeId": "it.vedph.itinera.cited-persons",
@@ -47,7 +47,16 @@
           "description": "List of persons cited in a text.",
           "colorKey": "F5C44E",
           "groupKey": "letter",
-          "sortKey": "ep-cited-persons"
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.itinera.cited-persons",
+          "roleId": "pseudo",
+          "name": "pseudonyms",
+          "description": "List of pseudonyms cited in a text.",
+          "colorKey": "CED3DC",
+          "groupKey": "letter",
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -56,7 +65,7 @@
           "description": "Document references related to a letter.",
           "colorKey": "FAC9D5",
           "groupKey": "letter",
-          "sortKey": "ep-doc-refs"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.itinera.serial-text-info",
@@ -65,8 +74,96 @@
           "description": "Information about a serial text.",
           "colorKey": "76CB9C",
           "groupKey": "letter",
-          "sortKey": "ep-text-info",
+          "sortKey": "a",
           "isRequired": true
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "label": "text",
+      "description": "Texts other than letters.",
+      "colorKey": "80839F",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "B0A0F8",
+          "groupKey": "general",
+          "sortKey": "i"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "20B2AA",
+          "groupKey": "general",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.itinera.attachments",
+          "roleId": "",
+          "name": "attachment",
+          "description": "Attachments connected to some document.",
+          "colorKey": "EEE862",
+          "groupKey": "letter",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.itinera.chronotopics",
+          "roleId": "",
+          "name": "chronotopics",
+          "description": "Chronological and topological coordinates.",
+          "colorKey": "F48483",
+          "groupKey": "letter",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.itinera.cited-persons",
+          "roleId": "",
+          "name": "cited persons",
+          "description": "List of persons cited in a text.",
+          "colorKey": "F5C44E",
+          "groupKey": "letter",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.itinera.cited-persons",
+          "roleId": "pseudo",
+          "name": "pseudonyms",
+          "description": "List of pseudonyms cited in a text.",
+          "colorKey": "CED3DC",
+          "groupKey": "letter",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "roleId": "",
+          "name": "references",
+          "description": "Document references related to a letter.",
+          "colorKey": "FAC9D5",
+          "groupKey": "letter",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.itinera.serial-text-info",
+          "roleId": "",
+          "name": "text info",
+          "description": "Information about a serial text.",
+          "colorKey": "76CB9C",
+          "groupKey": "letter",
+          "sortKey": "a",
+          "isRequired": true
+        },
+        {
+          "typeId": "it.vedph.itinera.lit-dedications",
+          "roleId": "",
+          "name": "dedications",
+          "description": "Literary dedications.",
+          "colorKey": "A5CB76",
+          "groupKey": "correspondent",
+          "sortKey": "h"
         }
       ]
     },
@@ -82,7 +179,7 @@
           "description": "A free text note.",
           "colorKey": "B0A0F8",
           "groupKey": "general",
-          "sortKey": "note"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -90,16 +187,7 @@
           "description": "Bibliography.",
           "colorKey": "20B2AA",
           "groupKey": "general",
-          "sortKey": "bibliography"
-        },
-        {
-          "typeId": "it.vedph.itinera.lit-dedications",
-          "roleId": "",
-          "name": "dedications",
-          "description": "Literary dedications.",
-          "colorKey": "A5CB76",
-          "groupKey": "correspondent",
-          "sortKey": "ep-dedications"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.itinera.corr-exchanges",
@@ -108,25 +196,7 @@
           "description": "Exchanges of objects between the reference author and correspondent.",
           "colorKey": "76CBC6",
           "groupKey": "correspondent",
-          "sortKey": "ep-exchanges"
-        },
-        {
-          "typeId": "it.vedph.doc-references",
-          "roleId": "auth",
-          "name": "a-refs",
-          "description": "Document references by the reference author to the correspondent.",
-          "colorKey": "FAC9D5",
-          "groupKey": "correspondent",
-          "sortKey": "ep-doc-refs-a"
-        },
-        {
-          "typeId": "it.vedph.doc-references",
-          "roleId": "corr",
-          "name": "c-refs",
-          "description": "Document references by the correspondent to the reference author.",
-          "colorKey": "FAC9D5",
-          "groupKey": "correspondent",
-          "sortKey": "ep-doc-refs-c"
+          "sortKey": "c"
         },
         {
           "typeId": "it.vedph.itinera.person-events",
@@ -134,7 +204,7 @@
           "description": "Biographic events connected to a correspondent.",
           "colorKey": "988BD2",
           "groupKey": "correspondent",
-          "sortKey": "ep-person-events"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.itinera.person",
@@ -143,7 +213,7 @@
           "description": "Person's bio.",
           "colorKey": "62AEEE",
           "groupKey": "correspondent",
-          "sortKey": "ep-person",
+          "sortKey": "a",
           "isRequired": true
         },
         {
@@ -153,7 +223,7 @@
           "description": "Person's works.",
           "colorKey": "AE62EE",
           "groupKey": "correspondent",
-          "sortKey": "ep-person-works"
+          "sortKey": "b"
         }
       ]
     },
@@ -169,7 +239,7 @@
           "description": "A free text note.",
           "colorKey": "B0A0F8",
           "groupKey": "general",
-          "sortKey": "note"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -177,7 +247,7 @@
           "description": "Bibliography.",
           "colorKey": "20B2AA",
           "groupKey": "general",
-          "sortKey": "bibliography"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.itinera.attachments",
@@ -186,7 +256,7 @@
           "description": "Attachments connected to some document.",
           "colorKey": "EEE862",
           "groupKey": "poetic",
-          "sortKey": "ep-attachments"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.itinera.chronotopics",
@@ -195,7 +265,7 @@
           "description": "Chronological and topological coordinates.",
           "colorKey": "F48483",
           "groupKey": "poetic",
-          "sortKey": "ep-chronotopics"
+          "sortKey": "b"
         },
         {
           "typeId": "it.vedph.itinera.cited-persons",
@@ -204,7 +274,7 @@
           "description": "List of persons cited in a text.",
           "colorKey": "F5C44E",
           "groupKey": "poetic",
-          "sortKey": "ep-cited-persons"
+          "sortKey": "c"
         },
         {
           "typeId": "it.vedph.itinera.serial-text-info",
@@ -213,7 +283,7 @@
           "description": "Information about a letter-related poetic text.",
           "colorKey": "D28BA2",
           "groupKey": "poetic",
-          "sortKey": "ep-poetic-text-info",
+          "sortKey": "a",
           "isRequired": true
         }
       ]
@@ -230,7 +300,7 @@
           "description": "A free text note.",
           "colorKey": "B0A0F8",
           "groupKey": "general",
-          "sortKey": "note"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -238,7 +308,7 @@
           "description": "Bibliography.",
           "colorKey": "20B2AA",
           "groupKey": "general",
-          "sortKey": "bibliography"
+          "sortKey": "r"
         },
         {
           "typeId": "it.vedph.historical-date",
@@ -246,7 +316,7 @@
           "description": "Historical date.",
           "colorKey": "F898F8",
           "groupKey": "general",
-          "sortKey": "date"
+          "sortKey": "c"
         },
         {
           "typeId": "it.vedph.itinera.ms-binding",
@@ -255,7 +325,7 @@
           "description": "Manuscript's binding.",
           "colorKey": "AF6465",
           "groupKey": "manuscript",
-          "sortKey": "ms-binding"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.itinera.ms-catchwords",
@@ -264,7 +334,7 @@
           "description": "Manuscript's catchwords.",
           "colorKey": "FE3A34",
           "groupKey": "manuscript",
-          "sortKey": "ms-catchwords"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.itinera.ms-composition",
@@ -273,7 +343,7 @@
           "description": "Manuscript's composition.",
           "colorKey": "DAA520",
           "groupKey": "manuscript",
-          "sortKey": "ms-composition"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.itinera.ms-content-loci",
@@ -282,7 +352,7 @@
           "description": "Manuscript's loci critici.",
           "colorKey": "C880C4",
           "groupKey": "manuscript",
-          "sortKey": "ms-loci"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.itinera.ms-contents",
@@ -291,7 +361,7 @@
           "description": "Manuscript's contents.",
           "colorKey": "508B5E",
           "groupKey": "manuscript",
-          "sortKey": "ms-contents"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.itinera.ms-decorations",
@@ -300,7 +370,7 @@
           "description": "Manuscript's decoration.",
           "colorKey": "4D5EF7",
           "groupKey": "manuscript",
-          "sortKey": "ms-decoration"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.itinera.ms-layouts",
@@ -309,7 +379,7 @@
           "description": "Manuscript's layouts.",
           "colorKey": "72EAF7",
           "groupKey": "manuscript",
-          "sortKey": "ms-layouts"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.itinera.ms-hands",
@@ -318,7 +388,7 @@
           "description": "Manuscript's hands.",
           "colorKey": "F5C2B1",
           "groupKey": "manuscript",
-          "sortKey": "ms-hands"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.itinera.ms-history",
@@ -327,7 +397,7 @@
           "description": "Manuscript's history.",
           "colorKey": "C82222",
           "groupKey": "manuscript",
-          "sortKey": "ms-history"
+          "sortKey": "q"
         },
         {
           "typeId": "it.vedph.itinera.ms-material-dsc",
@@ -336,7 +406,7 @@
           "description": "Manuscript's material description.",
           "colorKey": "989796",
           "groupKey": "manuscript",
-          "sortKey": "ms-material-dsc"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.itinera.ms-numberings",
@@ -345,7 +415,7 @@
           "description": "Manuscript's numberings.",
           "colorKey": "8047DD",
           "groupKey": "manuscript",
-          "sortKey": "ms-numberings"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.itinera.ms-place",
@@ -354,7 +424,7 @@
           "description": "Manuscript's place of origin.",
           "colorKey": "41943B",
           "groupKey": "manuscript",
-          "sortKey": "ms-place"
+          "sortKey": "b"
         },
         {
           "typeId": "it.vedph.itinera.ms-poem-ranges",
@@ -363,7 +433,7 @@
           "description": "Manuscript's poems ranges.",
           "colorKey": "E72A8E",
           "groupKey": "manuscript",
-          "sortKey": "ms-poem-ranges"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.itinera.ms-quires",
@@ -372,7 +442,7 @@
           "description": "Manuscript's quires.",
           "colorKey": "D4F672",
           "groupKey": "manuscript",
-          "sortKey": "ms-quires"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.itinera.ms-signatures",
@@ -381,7 +451,7 @@
           "description": "Manuscript's signatures.",
           "colorKey": "D7D5DB",
           "groupKey": "manuscript",
-          "sortKey": "ms-signatures",
+          "sortKey": "a",
           "isRequired": true
         },
         {
@@ -391,7 +461,7 @@
           "description": "Manuscript's watermarks.",
           "colorKey": "82DCCA",
           "groupKey": "manuscript",
-          "sortKey": "ms-watermarks"
+          "sortKey": "e"
         }
       ]
     }
@@ -545,35 +615,35 @@
       "entries": [
         {
           "id": "eng",
-          "value": "English"
+          "value": "inglese"
         },
         {
           "id": "fre",
-          "value": "French"
+          "value": "francese"
         },
         {
           "id": "deu",
-          "value": "German"
+          "value": "tedesco"
         },
         {
           "id": "grc",
-          "value": "Ancient Greek"
+          "value": "greco"
         },
         {
           "id": "gre",
-          "value": "Modern Greek"
+          "value": "neogreco"
         },
         {
           "id": "ita",
-          "value": "Italian"
+          "value": "italiano"
         },
         {
           "id": "lat",
-          "value": "Latin"
+          "value": "latino"
         },
         {
           "id": "spa",
-          "value": "Spanish"
+          "value": "spagnolo"
         }
       ]
     },
@@ -582,40 +652,40 @@
       "entries": [
         {
           "id": "ed",
-          "value": "editor"
+          "value": "curatore"
         },
         {
           "id": "tr",
-          "value": "translator"
+          "value": "traduttore"
+        },
+        {
+          "id": "coll",
+          "value": "collaboratore"
+        },
+        {
+          "id": "dir",
+          "value": "direttore"
         },
         {
           "id": "org",
-          "value": "organization"
+          "value": "organizzazione"
         }
       ]
     },
     {
       "id": "ext-biblio-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "ext-biblio-work-tags@en",
       "entries": [
         {
-          "id": "eng",
-          "value": "English"
+          "id": "ed",
+          "value": "ed.critica"
         },
         {
-          "id": "deu",
-          "value": "German"
-        },
-        {
-          "id": "ita",
-          "value": "Italian"
-        },
-        {
-          "id": "fra",
-          "value": "French"
-        },
-        {
-          "id": "spa",
-          "value": "Spanish"
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -843,11 +913,15 @@
       "entries": [
         {
           "id": "illuminator",
-          "value": "illuminator"
+          "value": "miniatore"
         },
         {
           "id": "painter",
-          "value": "painter"
+          "value": "pittore"
+        },
+        {
+          "id": "workshop",
+          "value": "bottega"
         }
       ]
     },
@@ -873,15 +947,43 @@
       "entries": [
         {
           "id": "original",
-          "value": "original"
+          "value": "originale"
         },
         {
           "id": "unitary",
-          "value": "unitary"
+          "value": "unitaria"
         },
         {
           "id": "complete",
-          "value": "complete"
+          "value": "completa"
+        },
+        {
+          "id": "pag-inc.ill",
+          "value": "illustrazione"
+        },
+        {
+          "id": "pag-inc.orn",
+          "value": "ornamentazione"
+        },
+        {
+          "id": "pag-inc.ini",
+          "value": "iniziali"
+        },
+        {
+          "id": "ini-pla.guide",
+          "value": "lettere guida"
+        },
+        {
+          "id": "ini-wat.guide",
+          "value": "lettere guida"
+        },
+        {
+          "id": "ini-orn.guide",
+          "value": "lettere guida"
+        },
+        {
+          "id": "ini-fig.guide",
+          "value": "lettere guida"
         }
       ]
     },
@@ -984,6 +1086,27 @@
       ]
     },
     {
+      "id": "ms-decoration-elem-techniques@en",
+      "entries": [
+        {
+          "id": "watercolor",
+          "value": "acquerello"
+        },
+        {
+          "id": "gouache",
+          "value": "tempera"
+        },
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
       "id": "ms-decoration-elem-tools@en",
       "entries": [
         {
@@ -993,6 +1116,10 @@
         {
           "id": "brush",
           "value": "pennello"
+        },
+        {
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -1250,15 +1377,19 @@
       "entries": [
         {
           "id": "lat",
-          "value": "Latin"
+          "value": "latino"
         },
         {
           "id": "grc",
-          "value": "Greek"
+          "value": "greco"
         },
         {
           "id": "ita",
-          "value": "Italian"
+          "value": "italiano"
+        },
+        {
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -1267,11 +1398,11 @@
       "entries": [
         {
           "id": "let",
-          "value": "letter"
+          "value": "lettera"
         },
         {
           "id": "pct",
-          "value": "punctuation"
+          "value": "interpunzione"
         }
       ]
     },
@@ -1297,6 +1428,14 @@
         {
           "id": "crh",
           "value": "corsiva um."
+        },
+        {
+          "id": "ant",
+          "value": "antiqua"
+        },
+        {
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -1305,19 +1444,19 @@
       "entries": [
         {
           "id": "ita",
-          "value": "Italian"
+          "value": "italiano"
         },
         {
           "id": "lat",
-          "value": "Latin"
+          "value": "latino"
         },
         {
           "id": "grc",
-          "value": "Greek"
+          "value": "greco"
         },
         {
           "id": "-",
-          "value": "other"
+          "value": "altro"
         }
       ]
     },
@@ -1331,6 +1470,14 @@
         {
           "id": "annotator",
           "value": "postillatore"
+        },
+        {
+          "id": "restorer",
+          "value": "restauratore"
+        },
+        {
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -1576,6 +1723,19 @@
       ]
     },
     {
+      "id": "ms-signature-tags@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "prev",
+          "value": "prec."
+        }
+      ]
+    },
+    {
       "id": "ms-states@en",
       "entries": [
         {
@@ -1609,19 +1769,19 @@
       "entries": [
         {
           "id": "first",
-          "value": "first"
+          "value": "nome"
         },
         {
           "id": "last",
-          "value": "last"
+          "value": "cognome"
         },
         {
           "id": "name",
-          "value": "name"
+          "value": "nome generico"
         },
         {
           "id": "title",
-          "value": "title"
+          "value": "titolo"
         }
       ]
     },
@@ -1640,10 +1800,19 @@
     },
     {
       "id": "serial-text-languages@en",
-      "targetId": "languages"
+      "entries": [
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "ita",
+          "value": "italiano"
+        }
+      ]
     },
     {
-      "id": "text-metres@en",
+      "id": "serial-text-genres@en",
       "entries": [
         {
           "id": "canzone",
@@ -1676,6 +1845,31 @@
         {
           "id": "terza",
           "value": "terza rima"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "serial-text-verses@en",
+      "entries": [
+        {
+          "id": "11s",
+          "value": "endecasillabo"
+        },
+        {
+          "id": "7s",
+          "value": "settenario"
+        },
+        {
+          "id": "7s-11s",
+          "value": "settenari/endecas."
+        },
+        {
+          "id": "-",
+          "value": "other"
         }
       ]
     }
