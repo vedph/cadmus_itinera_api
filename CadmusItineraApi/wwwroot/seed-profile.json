@@ -817,6 +817,10 @@
         {
           "id": "read",
           "value": "annotaz.consultaz."
+        },
+        {
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
