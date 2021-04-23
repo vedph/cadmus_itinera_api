@@ -1440,6 +1440,27 @@
       ]
     },
     {
+      "id": "ms-hand-note-props@en",
+      "entries": [
+        {
+          "id": "initials",
+          "value": "iniziali|1000"
+        },
+        {
+          "id": "corrections",
+          "value": "correzioni|500"
+        },
+        {
+          "id": "punctuation",
+          "value": "interpunzione|500"
+        },
+        {
+          "id": "abbreviations",
+          "value": "abbreviazioni|1000*"
+        }
+      ]
+    },
+    {
       "id": "ms-history-languages@en",
       "entries": [
         {
