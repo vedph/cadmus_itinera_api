@@ -1836,6 +1836,10 @@
       "id": "serial-text-genres@en",
       "entries": [
         {
+          "id": "-",
+          "value": "(nessuno)"
+        },
+        {
           "id": "canzone",
           "value": "canzone"
         },
@@ -1868,7 +1872,7 @@
           "value": "terza rima"
         },
         {
-          "id": "-",
+          "id": "other",
           "value": "altro"
         }
       ]
@@ -1876,6 +1880,10 @@
     {
       "id": "serial-text-verses@en",
       "entries": [
+        {
+          "id": "-",
+          "value": "(nessuno)"
+        },
         {
           "id": "11s",
           "value": "endecasillabo"
@@ -1889,8 +1897,8 @@
           "value": "settenari/endecas."
         },
         {
-          "id": "-",
-          "value": "other"
+          "id": "other",
+          "value": "altro"
         }
       ]
     }
