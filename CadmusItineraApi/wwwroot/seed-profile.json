@@ -200,7 +200,7 @@
         },
         {
           "typeId": "it.vedph.itinera.person-events",
-          "name": "c-events",
+          "name": "person-events",
           "description": "Biographic events connected to a correspondent.",
           "colorKey": "988BD2",
           "groupKey": "correspondent",
@@ -1390,6 +1390,23 @@
         {
           "id": "ita",
           "value": "italiano"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "ms-hand-languages@en",
+      "entries": [
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
         },
         {
           "id": "-",

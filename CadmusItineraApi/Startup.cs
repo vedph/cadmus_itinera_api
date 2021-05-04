@@ -289,6 +289,16 @@ namespace CadmusItineraApi
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                // https://docs.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-5.0&tabs=visual-studio
+                app.UseExceptionHandler("/Error");
+                if (Configuration.GetValue<bool>("Server:UseHSTS"))
+                {
+                    Console.WriteLine("Using HSTS");
+                    app.UseHsts();
+                }
+            }
 
             app.UseHttpsRedirection();
             app.UseRouting();
