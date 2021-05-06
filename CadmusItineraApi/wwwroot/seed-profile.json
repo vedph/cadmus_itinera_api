@@ -909,6 +909,10 @@
         {
           "id": "excerpts",
           "value": "estratti"
+        },
+        {
+          "id": "-",
+          "value": "-"
         }
       ]
     },
@@ -1253,15 +1257,15 @@
         },
         {
           "id": "ini-pla",
-          "value": "gilding typologies subject textRelation"
+          "value": "gilding typologies textRelation"
         },
         {
           "id": "ini-wat",
-          "value": "gilding typologies subject textRelation"
+          "value": "gilding typologies textRelation"
         },
         {
           "id": "ini-orn",
-          "value": "subject textRelation"
+          "value": "textRelation"
         },
         {
           "id": "par",
