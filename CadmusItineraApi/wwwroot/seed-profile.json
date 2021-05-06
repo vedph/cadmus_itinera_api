@@ -951,6 +951,23 @@
       ]
     },
     {
+      "id": "ms-decoration-flags@en",
+      "entries": [
+        {
+          "id": "original",
+          "value": "originale"
+        },
+        {
+          "id": "unitary",
+          "value": "unitaria"
+        },
+        {
+          "id": "complete",
+          "value": "completa"
+        }
+      ]
+    },
+    {
       "id": "ms-decoration-elem-flags@en",
       "entries": [
         {
@@ -1723,7 +1740,7 @@
       ]
     },
     {
-      "id": "ms-quires-types@en",
+      "id": "ms-quire-types@en",
       "language": "en",
       "entries": [
         {
