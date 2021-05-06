@@ -1723,6 +1723,52 @@
       ]
     },
     {
+      "id": "ms-quires-types@en",
+      "language": "en",
+      "entries": [
+        {
+          "id": "t2",
+          "value": "binione"
+        },
+        {
+          "id": "t3",
+          "value": "ternione"
+        },
+        {
+          "id": "t4",
+          "value": "quaternione"
+        },
+        {
+          "id": "t5",
+          "value": "quinione"
+        },
+        {
+          "id": "t6",
+          "value": "senione"
+        },
+        {
+          "id": "t7",
+          "value": "settenione"
+        },
+        {
+          "id": "t8",
+          "value": "ottonione"
+        },
+        {
+          "id": "t9",
+          "value": "novenione"
+        },
+        {
+          "id": "t10",
+          "value": "decanione"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
       "id": "ms-rubrication-types@en",
       "entries": [
         {
