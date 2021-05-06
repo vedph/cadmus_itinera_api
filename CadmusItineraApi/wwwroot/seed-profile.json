@@ -784,6 +784,51 @@
       ]
     },
     {
+      "id": "person-work-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "person-work-genres@en",
+      "entries": [
+        {
+          "id": "comment",
+          "value": "commento"
+        },
+        {
+          "id": "chronicle",
+          "value": "cronaca"
+        },
+        {
+          "id": "letter",
+          "value": "epistola"
+        },
+        {
+          "id": "poem",
+          "value": "poema"
+        },
+        {
+          "id": "poetic",
+          "value": "testo poetico"
+        },
+        {
+          "id": "treatise",
+          "value": "trattato"
+        },
+        {
+          "id": "letter-coll",
+          "value": "raccolta epistolare"
+        },
+        {
+          "id": "poetic-coll",
+          "value": "raccolta poetica"
+        },
+        {
+          "id": "-",
+          "value": "-"
+        }
+      ]
+    },
+    {
       "id": "ms-annotation-types@en",
       "entries": [
         {
