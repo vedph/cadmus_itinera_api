@@ -316,7 +316,10 @@ namespace CadmusItineraApi
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "V1 Docs");
+                //options.SwaggerEndpoint("/swagger/v1/swagger.json", "V1 Docs");
+                string url = Configuration.GetValue<string>("Swagger:Endpoint");
+                if (string.IsNullOrEmpty(url)) url = "v1/swagger.json";
+                options.SwaggerEndpoint(url, "V1 Docs");
             });
         }
     }
